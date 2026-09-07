@@ -1,4 +1,4 @@
-name: BMS 4 Sept Adv Runner
+name: BMS 11 Sept Adv Runner
 
 on:
   workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
       - name: Decide tracking day (FREEZE)
         id: set
         run: |
-          TARGET="2026-09-04"
+          TARGET="2026-09-11"
           TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
 
           DAYS_AHEAD=$(( ( $(date -d "$TARGET" +%s) - $(date -d "$TODAY" +%s) ) / 86400 ))
@@ -33,7 +33,7 @@ jobs:
             DAYS_AHEAD=0
           fi
 
-          DATE_CODE="20260904"
+          DATE_CODE="20260911"
 
           echo "📅 Target date  : $TARGET"
           echo "📆 Today (IST)  : $TODAY"
