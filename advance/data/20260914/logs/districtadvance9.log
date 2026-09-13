@@ -88,3 +88,48 @@
 [00:06:07] 📦 Existing detailed file preserved: advance/data/20260914/detailed9.json
 [00:06:07] 📦 Existing summary file preserved: advance/data/20260914/movie_summary9.json
 [00:06:07] ✅ DONE | Existing data preserved
+[10:42:30] 🚀 DISTRICT → BMS9 CONVERTER STARTED
+[10:42:30] 📅 Date: 2026-09-14
+[10:42:30] 🚫 Worker logic: DISABLED
+[10:42:30] 🔑 Venue matching: ID ONLY
+[10:42:30] 🚫 alldistrictvenues.json: NOT USED
+[10:42:30] 🚫 Venue-name matching: NOT USED
+[10:42:30] 📍 Selected venue records: 756
+[10:42:30] 🎯 Selected venue IDs: 756
+[10:42:30] 📡 Fetching Detailed JSON:
+[10:42:30]    https://districtdata2026.pages.dev/advance/2026-09-14_Detailed.json
+[10:42:33] ✅ Source loaded
+[10:42:33]    Source date: 2026-09-14
+[10:42:33]    Last updated: 10:06 AM, 13 September 2026
+[10:42:33]    Movie keys: 82
+[10:42:33] 🎬 Source movie keys: 82
+[10:42:33] 🎟️ Selected-venue show rows: 2937
+[10:42:33] 🚫 Non-selected show rows ignored: 12816
+[10:42:33] ℹ️ Non-selected venue IDs encountered: 804
+[10:42:33]    ⏭️ Source venue ID not selected: 1038832
+[10:42:33]    ⏭️ Source venue ID not selected: 1018963
+[10:42:33]    ⏭️ Source venue ID not selected: 1020707
+[10:42:33]    ⏭️ Source venue ID not selected: 1023562
+[10:42:33]    ⏭️ Source venue ID not selected: 1022247
+[10:42:33]    ⏭️ Source venue ID not selected: 7766
+[10:42:33]    ⏭️ Source venue ID not selected: 27093
+[10:42:33]    ⏭️ Source venue ID not selected: 9536
+[10:42:33]    ⏭️ Source venue ID not selected: 1016377
+[10:42:33]    ⏭️ Source venue ID not selected: 1042162
+[10:42:33]    ⏭️ Source venue ID not selected: 639
+[10:42:33]    ⏭️ Source venue ID not selected: 1029278
+[10:42:33]    ⏭️ Source venue ID not selected: 1018957
+[10:42:33]    ⏭️ Source venue ID not selected: 677
+[10:42:33]    ⏭️ Source venue ID not selected: 1410
+[10:42:33]    ⏭️ Source venue ID not selected: 1029273
+[10:42:33]    ⏭️ Source venue ID not selected: 1020734
+[10:42:33]    ⏭️ Source venue ID not selected: 1749
+[10:42:33]    ⏭️ Source venue ID not selected: 60676
+[10:42:33]    ⏭️ Source venue ID not selected: 1037972
+[10:42:33]    ... and 784 more
+[10:42:33] 📦 Previous shows: 0
+[10:42:33] 🆕 Fresh shows: 2937
+[10:42:33] 📦 Final shows: 2937
+[10:42:33] ✅ DONE | Shows=2937 | Movies=40
+[10:42:33] 📄 Detailed: advance/data/20260914/detailed9.json
+[10:42:33] 📄 Summary: advance/data/20260914/movie_summary9.json
