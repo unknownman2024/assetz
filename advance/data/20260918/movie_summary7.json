@@ -1,23 +1,35 @@
 {
   "Pradhama Drishtiya Kuttakkar [2D | Malayalam]": {
-    "shows": 4,
-    "gross": 0.0,
-    "sold": 0,
-    "totalSeats": 568,
-    "venues": 1,
-    "cities": 1,
+    "shows": 8,
+    "gross": 150.0,
+    "sold": 1,
+    "totalSeats": 1888,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.0,
+    "occupancy": 0.05,
     "details": [
       {
         "city": "Adimali",
         "state": "Kerala",
         "venues": 1,
         "shows": 4,
+        "gross": 150.0,
+        "sold": 1,
+        "totalSeats": 568,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.18
+      },
+      {
+        "city": "Kumily",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 4,
         "gross": 0.0,
         "sold": 0,
-        "totalSeats": 568,
+        "totalSeats": 1320,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -28,9 +40,20 @@
         "chain": "Matha Movie House",
         "venues": 1,
         "shows": 4,
+        "gross": 150.0,
+        "sold": 1,
+        "totalSeats": 568,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.18
+      },
+      {
+        "chain": "EVM Cinemas: Perumbavoor",
+        "venues": 1,
+        "shows": 4,
         "gross": 0.0,
         "sold": 0,
-        "totalSeats": 568,
+        "totalSeats": 1320,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -39,26 +62,26 @@
   },
   "Bethlehem Kudumba Unit [2D | Malayalam]": {
     "shows": 4,
-    "gross": 1500.0,
-    "sold": 10,
+    "gross": 3750.0,
+    "sold": 25,
     "totalSeats": 488,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 2.05,
+    "occupancy": 5.12,
     "details": [
       {
         "city": "Adimali",
         "state": "Kerala",
         "venues": 1,
         "shows": 4,
-        "gross": 1500.0,
-        "sold": 10,
+        "gross": 3750.0,
+        "sold": 25,
         "totalSeats": 488,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.05
+        "occupancy": 5.12
       }
     ],
     "Chain_details": [
@@ -66,37 +89,147 @@
         "chain": "Matha Movie House",
         "venues": 1,
         "shows": 4,
-        "gross": 1500.0,
-        "sold": 10,
+        "gross": 3750.0,
+        "sold": 25,
         "totalSeats": 488,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.05
+        "occupancy": 5.12
+      }
+    ]
+  },
+  "Hanuman Ansh [2D | Hindi]": {
+    "shows": 13,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 8861,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "venues": 2,
+        "shows": 8,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 8216,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "city": "Vapi",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 645,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 7992,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "Rajeev Cinema",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 224,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "Cine Park: Chala,Vapi",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 645,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "Mandaadi [2D | Tamil]": {
+    "shows": 4,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 2400,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Cumbum",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 2400,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Thambis Theatre A/C Dolby Atmos",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 2400,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
       }
     ]
   },
   "Mirapakaya [2D | Telugu]": {
     "shows": 2,
-    "gross": 38105.0,
-    "sold": 281,
+    "gross": 38695.0,
+    "sold": 286,
     "totalSeats": 1170,
     "venues": 2,
     "cities": 1,
     "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 24.02,
+    "occupancy": 24.44,
     "details": [
       {
         "city": "Vizag (Visakhapatnam)",
         "state": "Andhra Pradesh",
         "venues": 2,
         "shows": 2,
-        "gross": 38105.0,
-        "sold": 281,
+        "gross": 38695.0,
+        "sold": 286,
         "totalSeats": 1170,
         "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 24.02
+        "occupancy": 24.44
       }
     ],
     "Chain_details": [
@@ -104,12 +237,12 @@
         "chain": "Justickets",
         "venues": 1,
         "shows": 1,
-        "gross": 2685.0,
-        "sold": 21,
+        "gross": 3275.0,
+        "sold": 26,
         "totalSeats": 777,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.7
+        "occupancy": 3.35
       },
       {
         "chain": "Kameswari Cine Enterprises",
@@ -126,26 +259,26 @@
   },
   "Upendra [2D | Telugu]": {
     "shows": 1,
-    "gross": 3635.0,
-    "sold": 26,
+    "gross": 3835.0,
+    "sold": 28,
     "totalSeats": 554,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 4.69,
+    "occupancy": 5.05,
     "details": [
       {
         "city": "Vizag (Visakhapatnam)",
         "state": "Andhra Pradesh",
         "venues": 1,
         "shows": 1,
-        "gross": 3635.0,
-        "sold": 26,
+        "gross": 3835.0,
+        "sold": 28,
         "totalSeats": 554,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 4.69
+        "occupancy": 5.05
       }
     ],
     "Chain_details": [
@@ -153,12 +286,12 @@
         "chain": "Jayam Movies (P) LTD",
         "venues": 1,
         "shows": 1,
-        "gross": 3635.0,
-        "sold": 26,
+        "gross": 3835.0,
+        "sold": 28,
         "totalSeats": 554,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 4.69
+        "occupancy": 5.05
       }
     ]
   }
