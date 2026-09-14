@@ -13,3 +13,18 @@
 [00:16:02] 📄 Created empty detailed file: daily/data/20260915/detailed9.json
 [00:16:02] 📄 Created empty summary file: daily/data/20260915/movie_summary9.json
 [00:16:02] ✅ DONE | Existing data preserved
+[01:15:54] 🚀 DISTRICT → BMS9 CONVERTER STARTED
+[01:15:54] 📅 Date: 2026-09-15
+[01:15:54] 🚫 Worker logic: DISABLED
+[01:15:54] 🔑 Venue matching: ID ONLY
+[01:15:54] 🚫 alldistrictvenues.json: NOT USED
+[01:15:54] 🚫 Venue-name matching: NOT USED
+[01:15:54] 📍 Selected venue records: 756
+[01:15:54] 🎯 Selected venue IDs: 756
+[01:15:54] 📡 Fetching Detailed JSON:
+[01:15:54]    https://districtdata2026.pages.dev/boxoffice/2026-09-15_Detailed.json
+[01:15:54] ❌ Source file not found (404) – will create empty outputs
+[01:15:54] ⚠️ No source data – keeping existing output files unchanged
+[01:15:54] 📦 Existing detailed file preserved: daily/data/20260915/detailed9.json
+[01:15:54] 📦 Existing summary file preserved: daily/data/20260915/movie_summary9.json
+[01:15:54] ✅ DONE | Existing data preserved
