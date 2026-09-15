@@ -1,15 +1,39 @@
 {
   "Hanuman Ansh [2D | Hindi]": {
-    "shows": 4,
-    "gross": 0.0,
-    "sold": 0,
-    "totalSeats": 2804,
-    "venues": 1,
-    "cities": 1,
+    "shows": 13,
+    "gross": 3000.0,
+    "sold": 5,
+    "totalSeats": 4735,
+    "venues": 3,
+    "cities": 3,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.0,
+    "occupancy": 0.11,
     "details": [
+      {
+        "city": "Chitradurga",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 616,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "city": "Jamshedpur",
+        "state": "Jharkhand",
+        "venues": 1,
+        "shows": 5,
+        "gross": 3000.0,
+        "sold": 5,
+        "totalSeats": 1315,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.38
+      },
       {
         "city": "Gadarwara",
         "state": "Madhya Pradesh",
@@ -25,6 +49,28 @@
     ],
     "Chain_details": [
       {
+        "chain": "VGS & SR Cinemas",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 616,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "Cinepolis P&A",
+        "venues": 1,
+        "shows": 5,
+        "gross": 3000.0,
+        "sold": 5,
+        "totalSeats": 1315,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.38
+      },
+      {
         "chain": "Alka Talkies",
         "venues": 1,
         "shows": 4,
@@ -37,28 +83,139 @@
       }
     ]
   },
-  "Mandaadi [2D | Tamil]": {
-    "shows": 8,
-    "gross": 600.0,
-    "sold": 4,
-    "totalSeats": 3128,
+  "VIBE [2D | Hindi]": {
+    "shows": 11,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 1616,
     "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Jamshedpur",
+        "state": "Jharkhand",
+        "venues": 1,
+        "shows": 6,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 936,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "city": "Rourkela",
+        "state": "Odisha",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 680,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Cinepolis P&A",
+        "venues": 1,
+        "shows": 6,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 936,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 680,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "Mirzapur: The Movie [2D | Hindi]": {
+    "shows": 4,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 724,
+    "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.13,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Jamshedpur",
+        "state": "Jharkhand",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 724,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Cinepolis P&A",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 724,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "Mandaadi [2D | Tamil]": {
+    "shows": 12,
+    "gross": 30900.0,
+    "sold": 245,
+    "totalSeats": 4178,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 5.86,
     "details": [
       {
         "city": "Madurai",
         "state": "Tamil Nadu",
         "venues": 2,
         "shows": 8,
-        "gross": 600.0,
-        "sold": 4,
-        "totalSeats": 3128,
+        "gross": 17580.0,
+        "sold": 142,
+        "totalSeats": 3136,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.13
+        "occupancy": 4.53
+      },
+      {
+        "city": "Pondicherry",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 13320.0,
+        "sold": 103,
+        "totalSeats": 1042,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.88
       }
     ],
     "Chain_details": [
@@ -66,12 +223,12 @@
         "chain": "Ganesh Cinemas Melur",
         "venues": 1,
         "shows": 4,
-        "gross": 0.0,
-        "sold": 0,
-        "totalSeats": 1604,
+        "gross": 16980.0,
+        "sold": 138,
+        "totalSeats": 1612,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.0
+        "occupancy": 8.56
       },
       {
         "chain": "Ritzy Cinemas",
@@ -83,6 +240,55 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.26
+      },
+      {
+        "chain": "Shanmuga Cinemas",
+        "venues": 1,
+        "shows": 4,
+        "gross": 13320.0,
+        "sold": 103,
+        "totalSeats": 1042,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.88
+      }
+    ]
+  },
+  "Bethlehem Kudumba Unit [2D | Malayalam]": {
+    "shows": 4,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 1524,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Kollam",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1524,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "NVP Cinema",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1524,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
       }
     ]
   },
