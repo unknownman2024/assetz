@@ -1,113 +1,377 @@
 {
-  "It's a Medical Miracle [2D | Malayalam]": {
-    "shows": 71,
-    "gross": 457865.2,
-    "sold": 3025,
-    "totalSeats": 17341,
-    "venues": 22,
-    "cities": 15,
-    "fastfilling": 10,
-    "housefull": 0,
-    "occupancy": 17.44
-  },
   "Aasha [2D | Malayalam]": {
     "shows": 28,
-    "gross": 158422.1,
-    "sold": 953,
+    "gross": 161991.1,
+    "sold": 970,
     "totalSeats": 5720,
     "venues": 14,
     "cities": 10,
     "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 16.66
+    "occupancy": 16.96
   },
   "Pradhama Drishtiya Kuttakkar [2D | Malayalam]": {
     "shows": 107,
-    "gross": 962205.38,
-    "sold": 6332,
+    "gross": 995775.32,
+    "sold": 6496,
     "totalSeats": 26182,
     "venues": 31,
     "cities": 20,
     "fastfilling": 13,
     "housefull": 0,
-    "occupancy": 24.18
+    "occupancy": 24.81
   },
   "Daayra [2D | Hindi]": {
     "shows": 198,
-    "gross": 666006.45,
-    "sold": 2471,
-    "totalSeats": 35975,
+    "gross": 672404.45,
+    "sold": 2498,
+    "totalSeats": 35965,
     "venues": 63,
     "cities": 31,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 6.87
-  },
-  "Bethlehem Kudumba Unit [2D | Malayalam]": {
-    "shows": 95,
-    "gross": 950769.1,
-    "sold": 6009,
-    "totalSeats": 23495,
-    "venues": 33,
-    "cities": 18,
-    "fastfilling": 16,
-    "housefull": 0,
-    "occupancy": 25.58
-  },
-  "Mahendragiri Varahi [2D | Telugu]": {
-    "shows": 59,
-    "gross": 532332.0,
-    "sold": 5035,
-    "totalSeats": 22389,
-    "venues": 19,
-    "cities": 18,
-    "fastfilling": 4,
-    "housefull": 0,
-    "occupancy": 22.49
-  },
-  "Mirzapur: The Movie [2D | Hindi]": {
-    "shows": 460,
-    "gross": 3217459.28,
-    "sold": 13187,
-    "totalSeats": 93642,
-    "venues": 179,
-    "cities": 88,
-    "fastfilling": 13,
-    "housefull": 0,
-    "occupancy": 14.08
+    "occupancy": 6.95
   },
   "VIBE [2D | Hindi]": {
     "shows": 336,
-    "gross": 1415136.31,
-    "sold": 5424,
-    "totalSeats": 63649,
+    "gross": 1451033.31,
+    "sold": 5555,
+    "totalSeats": 63672,
     "venues": 106,
     "cities": 45,
     "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 8.52
+    "occupancy": 8.72
   },
   "Enna Vilai [2D | Tamil]": {
     "shows": 22,
-    "gross": 92495.8,
-    "sold": 702,
+    "gross": 98215.8,
+    "sold": 742,
     "totalSeats": 5397,
     "venues": 14,
     "cities": 14,
     "fastfilling": 3,
     "housefull": 0,
-    "occupancy": 13.01
+    "occupancy": 13.75
+  },
+  "Resident Evil [2D | Tamil]": {
+    "shows": 29,
+    "gross": 136427.25,
+    "sold": 974,
+    "totalSeats": 6150,
+    "venues": 11,
+    "cities": 11,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 15.84
+  },
+  "Mandaadi [2D | Tamil]": {
+    "shows": 116,
+    "gross": 1439672.6,
+    "sold": 10214,
+    "totalSeats": 41848,
+    "venues": 35,
+    "cities": 23,
+    "fastfilling": 19,
+    "housefull": 1,
+    "occupancy": 24.41
   },
   "Mandaadi [2D | Telugu]": {
     "shows": 128,
-    "gross": 559255.0,
-    "sold": 4989,
+    "gross": 576510.0,
+    "sold": 5141,
     "totalSeats": 43146,
     "venues": 36,
     "cities": 33,
     "fastfilling": 7,
     "housefull": 0,
-    "occupancy": 11.56
+    "occupancy": 11.92
+  },
+  "Hanuman Ansh [2D | Hindi]": {
+    "shows": 737,
+    "gross": 6432289.16,
+    "sold": 26164,
+    "totalSeats": 185086,
+    "venues": 204,
+    "cities": 96,
+    "fastfilling": 36,
+    "housefull": 4,
+    "occupancy": 14.14
+  },
+  "Mahendragiri Varahi [2D | Telugu]": {
+    "shows": 59,
+    "gross": 535552.0,
+    "sold": 5065,
+    "totalSeats": 22389,
+    "venues": 19,
+    "cities": 18,
+    "fastfilling": 4,
+    "housefull": 0,
+    "occupancy": 22.62
+  },
+  "Mirzapur: The Movie [2D | Hindi]": {
+    "shows": 460,
+    "gross": 3372756.28,
+    "sold": 13812,
+    "totalSeats": 93659,
+    "venues": 179,
+    "cities": 88,
+    "fastfilling": 17,
+    "housefull": 0,
+    "occupancy": 14.75
+  },
+  "Dahaan: The Evil Within [2D | Odia]": {
+    "shows": 20,
+    "gross": 125352.0,
+    "sold": 516,
+    "totalSeats": 4521,
+    "venues": 9,
+    "cities": 5,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 11.41
+  },
+  "Resident Evil [2D | Hindi]": {
+    "shows": 239,
+    "gross": 718182.0,
+    "sold": 3392,
+    "totalSeats": 47823,
+    "venues": 102,
+    "cities": 47,
+    "fastfilling": 0,
+    "housefull": 3,
+    "occupancy": 7.09
+  },
+  "Ayogya 2 [2D | Kannada]": {
+    "shows": 4,
+    "gross": 600.0,
+    "sold": 5,
+    "totalSeats": 2152,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.23
+  },
+  "Sampathige Saval [2D | Kannada]": {
+    "shows": 4,
+    "gross": 300.0,
+    "sold": 3,
+    "totalSeats": 2488,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.12
+  },
+  "Toss [2D | Kannada]": {
+    "shows": 10,
+    "gross": 47529.0,
+    "sold": 250,
+    "totalSeats": 2588,
+    "venues": 7,
+    "cities": 6,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 9.66
+  },
+  "Toxic: A Fairy Tale for Grown-ups [2D | Kannada]": {
+    "shows": 5,
+    "gross": 24528.0,
+    "sold": 129,
+    "totalSeats": 1057,
+    "venues": 4,
+    "cities": 4,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 12.2
+  },
+  "Mitti De Putt [2D | Punjabi]": {
+    "shows": 176,
+    "gross": 506766.0,
+    "sold": 2276,
+    "totalSeats": 34802,
+    "venues": 33,
+    "cities": 18,
+    "fastfilling": 0,
+    "housefull": 2,
+    "occupancy": 6.54
+  },
+  "Chatni [2D | Gujarati]": {
+    "shows": 48,
+    "gross": 61883.0,
+    "sold": 296,
+    "totalSeats": 8844,
+    "venues": 24,
+    "cities": 8,
+    "fastfilling": 0,
+    "housefull": 1,
+    "occupancy": 3.35
+  },
+  "Citylights [2D | Kannada]": {
+    "shows": 39,
+    "gross": 333898.0,
+    "sold": 2402,
+    "totalSeats": 10574,
+    "venues": 14,
+    "cities": 10,
+    "fastfilling": 5,
+    "housefull": 0,
+    "occupancy": 22.72
+  },
+  "It's a Medical Miracle [2D | Malayalam]": {
+    "shows": 71,
+    "gross": 486911.1,
+    "sold": 3195,
+    "totalSeats": 17341,
+    "venues": 22,
+    "cities": 15,
+    "fastfilling": 10,
+    "housefull": 0,
+    "occupancy": 18.42
+  },
+  "L&O - Law and Order [2D | Malayalam]": {
+    "shows": 35,
+    "gross": 162120.3,
+    "sold": 1113,
+    "totalSeats": 8652,
+    "venues": 12,
+    "cities": 9,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 12.86
+  },
+  "Toss [2D | Tulu]": {
+    "shows": 15,
+    "gross": 298400.0,
+    "sold": 1360,
+    "totalSeats": 3577,
+    "venues": 3,
+    "cities": 3,
+    "fastfilling": 6,
+    "housefull": 0,
+    "occupancy": 38.02
+  },
+  "Ottam Thullal [2D | Malayalam]": {
+    "shows": 13,
+    "gross": 28957.3,
+    "sold": 194,
+    "totalSeats": 2675,
+    "venues": 9,
+    "cities": 8,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 7.25
+  },
+  "Bethlehem Kudumba Unit [2D | Malayalam]": {
+    "shows": 95,
+    "gross": 954688.3,
+    "sold": 6030,
+    "totalSeats": 23495,
+    "venues": 33,
+    "cities": 18,
+    "fastfilling": 16,
+    "housefull": 0,
+    "occupancy": 25.67
+  },
+  "Sardar 2 [2D | Tamil]": {
+    "shows": 28,
+    "gross": 82519.25,
+    "sold": 601,
+    "totalSeats": 8646,
+    "venues": 11,
+    "cities": 10,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 6.95
+  },
+  "Resident Evil [4DX | English]": {
+    "shows": 7,
+    "gross": 77490.0,
+    "sold": 142,
+    "totalSeats": 612,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 23.2
+  },
+  "Resident Evil [2D | English]": {
+    "shows": 117,
+    "gross": 635009.92,
+    "sold": 2379,
+    "totalSeats": 20622,
+    "venues": 59,
+    "cities": 34,
+    "fastfilling": 3,
+    "housefull": 0,
+    "occupancy": 11.54
+  },
+  "Na Ik Duje Ton Ghat Singh Vs Kaur 2 Na Ik Duje Ton Wake [2D | Punjabi]": {
+    "shows": 50,
+    "gross": 141860.0,
+    "sold": 576,
+    "totalSeats": 8326,
+    "venues": 25,
+    "cities": 13,
+    "fastfilling": 0,
+    "housefull": 1,
+    "occupancy": 6.92
+  },
+  "Jadi: The Untold Side of If [2D | Odia]": {
+    "shows": 27,
+    "gross": 692541.0,
+    "sold": 2650,
+    "totalSeats": 7264,
+    "venues": 8,
+    "cities": 4,
+    "fastfilling": 5,
+    "housefull": 2,
+    "occupancy": 36.48
+  },
+  "Bethlehem Kudumba Unit [2D | Tamil]": {
+    "shows": 4,
+    "gross": 41461.85,
+    "sold": 278,
+    "totalSeats": 955,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 29.11
+  },
+  "Happy Journey [2D | Telugu]": {
+    "shows": 22,
+    "gross": 119277.27,
+    "sold": 946,
+    "totalSeats": 9458,
+    "venues": 8,
+    "cities": 8,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 10.0
+  },
+  "I'm Game [2D | Malayalam]": {
+    "shows": 4,
+    "gross": 8406.6,
+    "sold": 46,
+    "totalSeats": 707,
+    "venues": 3,
+    "cities": 3,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 6.51
+  },
+  "Practical Magic 2 [2D | English]": {
+    "shows": 12,
+    "gross": 15630.0,
+    "sold": 51,
+    "totalSeats": 1764,
+    "venues": 7,
+    "cities": 5,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.89
   },
   "Irumudi [2D | Telugu]": {
     "shows": 84,
@@ -120,38 +384,27 @@
     "housefull": 0,
     "occupancy": 11.83
   },
-  "Hanuman Ansh [2D | Hindi]": {
-    "shows": 737,
-    "gross": 6369485.81,
-    "sold": 25888,
-    "totalSeats": 185596,
-    "venues": 204,
-    "cities": 96,
-    "fastfilling": 35,
-    "housefull": 4,
-    "occupancy": 13.95
-  },
-  "Mandaadi [2D | Tamil]": {
-    "shows": 116,
-    "gross": 1344741.0,
-    "sold": 9600,
-    "totalSeats": 41848,
-    "venues": 35,
-    "cities": 23,
-    "fastfilling": 17,
-    "housefull": 1,
-    "occupancy": 22.94
-  },
-  "Resident Evil [2D | Tamil]": {
-    "shows": 29,
-    "gross": 128063.45,
-    "sold": 907,
-    "totalSeats": 6150,
-    "venues": 11,
-    "cities": 11,
-    "fastfilling": 1,
+  "Firki [2D | Gujarati]": {
+    "shows": 33,
+    "gross": 17453.0,
+    "sold": 105,
+    "totalSeats": 5224,
+    "venues": 18,
+    "cities": 7,
+    "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 14.75
+    "occupancy": 2.01
+  },
+  "Pidha Pachhi [2D | Gujarati]": {
+    "shows": 6,
+    "gross": 800.0,
+    "sold": 2,
+    "totalSeats": 876,
+    "venues": 4,
+    "cities": 3,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.23
   },
   "Warrior (2026) [2D | Kannada]": {
     "shows": 4,
@@ -197,94 +450,6 @@
     "housefull": 0,
     "occupancy": 34.77
   },
-  "Happy Journey [2D | Telugu]": {
-    "shows": 22,
-    "gross": 122777.27,
-    "sold": 960,
-    "totalSeats": 9458,
-    "venues": 8,
-    "cities": 8,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 10.15
-  },
-  "Dahaan: The Evil Within [2D | Odia]": {
-    "shows": 20,
-    "gross": 122722.0,
-    "sold": 506,
-    "totalSeats": 4521,
-    "venues": 9,
-    "cities": 5,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 11.19
-  },
-  "Resident Evil [2D | Hindi]": {
-    "shows": 239,
-    "gross": 709196.0,
-    "sold": 3353,
-    "totalSeats": 48460,
-    "venues": 102,
-    "cities": 47,
-    "fastfilling": 0,
-    "housefull": 3,
-    "occupancy": 6.92
-  },
-  "Resident Evil [2D | English]": {
-    "shows": 117,
-    "gross": 620704.88,
-    "sold": 2333,
-    "totalSeats": 20606,
-    "venues": 59,
-    "cities": 34,
-    "fastfilling": 3,
-    "housefull": 0,
-    "occupancy": 11.32
-  },
-  "Ayogya 2 [2D | Kannada]": {
-    "shows": 4,
-    "gross": 600.0,
-    "sold": 5,
-    "totalSeats": 2152,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 0.23
-  },
-  "Sampathige Saval [2D | Kannada]": {
-    "shows": 4,
-    "gross": 300.0,
-    "sold": 3,
-    "totalSeats": 2488,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 0.12
-  },
-  "Toss [2D | Kannada]": {
-    "shows": 10,
-    "gross": 51239.0,
-    "sold": 264,
-    "totalSeats": 2588,
-    "venues": 7,
-    "cities": 6,
-    "fastfilling": 1,
-    "housefull": 0,
-    "occupancy": 10.2
-  },
-  "Toxic: A Fairy Tale for Grown-ups [2D | Kannada]": {
-    "shows": 5,
-    "gross": 22178.0,
-    "sold": 124,
-    "totalSeats": 1057,
-    "venues": 4,
-    "cities": 4,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 11.73
-  },
   "Video [2D | Kannada]": {
     "shows": 11,
     "gross": 22927.0,
@@ -295,17 +460,6 @@
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 4.52
-  },
-  "Mitti De Putt [2D | Punjabi]": {
-    "shows": 176,
-    "gross": 498455.0,
-    "sold": 2240,
-    "totalSeats": 34784,
-    "venues": 33,
-    "cities": 18,
-    "fastfilling": 0,
-    "housefull": 2,
-    "occupancy": 6.44
   },
   "Bethlehem Kudumba Unit [2D | Telugu]": {
     "shows": 12,
@@ -329,72 +483,6 @@
     "housefull": 0,
     "occupancy": 51.97
   },
-  "Chatni [2D | Gujarati]": {
-    "shows": 48,
-    "gross": 65283.0,
-    "sold": 312,
-    "totalSeats": 8844,
-    "venues": 24,
-    "cities": 8,
-    "fastfilling": 0,
-    "housefull": 1,
-    "occupancy": 3.53
-  },
-  "Citylights [2D | Kannada]": {
-    "shows": 39,
-    "gross": 332498.0,
-    "sold": 2395,
-    "totalSeats": 10574,
-    "venues": 14,
-    "cities": 10,
-    "fastfilling": 5,
-    "housefull": 0,
-    "occupancy": 22.65
-  },
-  "L&O - Law and Order [2D | Malayalam]": {
-    "shows": 35,
-    "gross": 158042.1,
-    "sold": 1097,
-    "totalSeats": 8652,
-    "venues": 12,
-    "cities": 9,
-    "fastfilling": 1,
-    "housefull": 0,
-    "occupancy": 12.68
-  },
-  "Toss [2D | Tulu]": {
-    "shows": 15,
-    "gross": 270300.0,
-    "sold": 1239,
-    "totalSeats": 3577,
-    "venues": 3,
-    "cities": 3,
-    "fastfilling": 4,
-    "housefull": 0,
-    "occupancy": 34.64
-  },
-  "Ottam Thullal [2D | Malayalam]": {
-    "shows": 13,
-    "gross": 26752.4,
-    "sold": 177,
-    "totalSeats": 2675,
-    "venues": 9,
-    "cities": 8,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 6.62
-  },
-  "Sardar 2 [2D | Tamil]": {
-    "shows": 28,
-    "gross": 76969.25,
-    "sold": 564,
-    "totalSeats": 8646,
-    "venues": 11,
-    "cities": 10,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 6.52
-  },
   "Om Ka Hari [2D | Hindi]": {
     "shows": 3,
     "gross": 1200.0,
@@ -406,28 +494,6 @@
     "housefull": 0,
     "occupancy": 1.53
   },
-  "Resident Evil [4DX | English]": {
-    "shows": 7,
-    "gross": 81770.0,
-    "sold": 151,
-    "totalSeats": 624,
-    "venues": 2,
-    "cities": 2,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 24.2
-  },
-  "Firki [2D | Gujarati]": {
-    "shows": 33,
-    "gross": 17453.0,
-    "sold": 105,
-    "totalSeats": 5224,
-    "venues": 18,
-    "cities": 7,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 2.01
-  },
   "Jayanti 2 [2D | Marathi]": {
     "shows": 27,
     "gross": 58560.0,
@@ -438,39 +504,6 @@
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 7.19
-  },
-  "Na Ik Duje Ton Ghat Singh Vs Kaur 2 Na Ik Duje Ton Wake [2D | Punjabi]": {
-    "shows": 50,
-    "gross": 132660.0,
-    "sold": 557,
-    "totalSeats": 8326,
-    "venues": 25,
-    "cities": 13,
-    "fastfilling": 0,
-    "housefull": 1,
-    "occupancy": 6.69
-  },
-  "Jadi: The Untold Side of If [2D | Odia]": {
-    "shows": 27,
-    "gross": 674631.0,
-    "sold": 2601,
-    "totalSeats": 7264,
-    "venues": 8,
-    "cities": 4,
-    "fastfilling": 5,
-    "housefull": 2,
-    "occupancy": 35.81
-  },
-  "Bethlehem Kudumba Unit [2D | Tamil]": {
-    "shows": 4,
-    "gross": 35791.45,
-    "sold": 242,
-    "totalSeats": 955,
-    "venues": 2,
-    "cities": 2,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 25.34
   },
   "The Uprising [2D | English]": {
     "shows": 1,
@@ -516,17 +549,6 @@
     "housefull": 0,
     "occupancy": 0.0
   },
-  "I'm Game [2D | Malayalam]": {
-    "shows": 4,
-    "gross": 9206.6,
-    "sold": 50,
-    "totalSeats": 707,
-    "venues": 3,
-    "cities": 3,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 7.07
-  },
   "Sandakari [2D | Tamil]": {
     "shows": 13,
     "gross": 31750.0,
@@ -549,17 +571,6 @@
     "housefull": 0,
     "occupancy": 28.47
   },
-  "Practical Magic 2 [2D | English]": {
-    "shows": 12,
-    "gross": 15630.0,
-    "sold": 51,
-    "totalSeats": 1764,
-    "venues": 7,
-    "cities": 5,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 2.89
-  },
   "Adventure of Jetcat 7D - Combo [7D | English 7D]": {
     "shows": 8,
     "gross": 0.0,
@@ -581,17 +592,6 @@
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 9.21
-  },
-  "Pidha Pachhi [2D | Gujarati]": {
-    "shows": 6,
-    "gross": 800.0,
-    "sold": 2,
-    "totalSeats": 875,
-    "venues": 4,
-    "cities": 3,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 0.23
   },
   "Tor Mayaru Mor Mayaru [2D | Chattisgarhi]": {
     "shows": 5,
