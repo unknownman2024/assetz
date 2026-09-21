@@ -319,9 +319,6 @@ def trigger_code1_pipeline():
         f"   Status : {data.get('status')}"
     )
 
-    if data.get("web_url"):
-
-
     print("")
 
     return data
