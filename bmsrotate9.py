@@ -18,29 +18,34 @@ import pytz
 
 GITLAB_URL = "https://gitlab.com"
 
-# GET FROM ENVIRONMENT
+# GitLab credentials/project come from environment
 GITLAB_PROJECT_ID = os.environ["GITLAB_PROJECT_ID"]
 GITLAB_TOKEN = os.environ["GITLAB_TOKEN"]
+
 
 # ============================================================
 # DATE
 # ============================================================
-# EXACT SAME DATE LOGIC AS CODE 2
+# DATE_CODE IS PROVIDED BY GITHUB ACTIONS WORKFLOW
+#
+# Example:
+# DATE_CODE=20260924
+#
+# Python DOES NOT calculate DATE_CODE.
 # ============================================================
 
 IST = pytz.timezone("Asia/Kolkata")
 NOW_IST = datetime.now(IST)
 
-# Main date source for BOTH Code 1 + Code 2
 DATE_CODE = os.environ["DATE_CODE"]
 
-# Code 1 requires YYYY-MM-DD
+# Code 1 needs YYYY-MM-DD
 ADVANCE_DATE = datetime.strptime(
     DATE_CODE,
     "%Y%m%d"
 ).strftime("%Y-%m-%d")
 
-# Code 2 / District source requires YYYY-MM-DD
+# Code 2 uses the same DATE_CODE
 DATE_DISTRICT = datetime.strptime(
     DATE_CODE,
     "%Y%m%d"
@@ -145,7 +150,7 @@ def log(message):
 
 # ============================================================
 # ============================================================
-# CODE 1 — GITLAB PIPELINE TRIGGER
+# CODE 1 — GITLAB PIPELINE
 # ============================================================
 # ============================================================
 
@@ -263,12 +268,14 @@ def trigger_code1_pipeline():
     print("")
 
     response = requests.post(
+
         f"{GITLAB_URL}/api/v4/projects/"
         f"{GITLAB_PROJECT_ID}/pipeline",
 
         headers=GITLAB_HEADERS,
 
         json={
+
             "ref": "main",
 
             "variables": [
@@ -349,11 +356,11 @@ def wait_three_minutes():
     print("================================================")
 
     print(
-        "The pipeline was triggered successfully."
+        "GitLab pipeline triggered successfully."
     )
 
     print(
-        "Code 2 will start after exactly 180 seconds."
+        "Waiting exactly 180 seconds before Code 2..."
     )
 
     print("")
@@ -378,13 +385,13 @@ def wait_three_minutes():
 
     print("")
     print(
-        "✅ 3-minute wait completed"
+        "✅ 180-second wait completed"
     )
 
 
 # ============================================================
 # ============================================================
-# CODE 2 — JSON FUNCTIONS
+# CODE 2 — DISTRICT PROCESSOR
 # ============================================================
 # ============================================================
 
@@ -414,6 +421,7 @@ def get_venue_id(venue):
         venue,
         dict
     ):
+
         return None
 
     value = (
@@ -486,6 +494,7 @@ def load_selected_venues():
             venue,
             dict
         ):
+
             continue
 
         venue_id = get_venue_id(
@@ -697,7 +706,6 @@ def calculate_minutes_left(
 
 def fetch_source():
 
-    # EXACT CODE 2 SOURCE FORMAT
     url = (
         f"{SOURCE_BASE_URL}/"
         f"{DATE_DISTRICT}_Detailed.json"
@@ -847,7 +855,9 @@ def reverse_dictionary(
 
             continue
 
-        result[numeric_value] = key
+        result[
+            numeric_value
+        ] = key
 
     return result
 
@@ -1509,6 +1519,7 @@ def merge_without_deleting(
 
             new_map[key] = row
 
+    # Preserve old shows that disappeared
     for key, row in old_map.items():
 
         if key not in new_map:
@@ -1631,7 +1642,9 @@ def build_summary(
             m[
                 "venues"
             ].add(
-                str(venue_id)
+                str(
+                    venue_id
+                )
             )
 
         m[
@@ -1760,11 +1773,11 @@ def run_code2():
     )
 
     log(
-        f"📅 Date: {DATE_DISTRICT}"
+        f"📅 DATE_CODE: {DATE_CODE}"
     )
 
     log(
-        f"📅 DATE_CODE: {DATE_CODE}"
+        f"📅 Date: {DATE_DISTRICT}"
     )
 
     log(
@@ -1922,9 +1935,7 @@ def run_code2():
 
 
 # ============================================================
-# ============================================================
 # SINGLE ENTRY POINT
-# ============================================================
 # ============================================================
 
 def main():
@@ -1954,24 +1965,21 @@ def main():
 
 
     # ========================================================
-    # STEP 1
-    # CODE 1 — TRIGGER GITLAB PIPELINE
+    # STEP 1 — CODE 1
     # ========================================================
 
     trigger_code1_pipeline()
 
 
     # ========================================================
-    # STEP 2
-    # WAIT EXACTLY 3 MINUTES
+    # STEP 2 — WAIT 3 MINUTES
     # ========================================================
 
     wait_three_minutes()
 
 
     # ========================================================
-    # STEP 3
-    # CODE 2 — DISTRICT JSON
+    # STEP 3 — CODE 2
     # ========================================================
 
     print("")
@@ -1984,7 +1992,7 @@ def main():
 
 
     # ========================================================
-    # COMPLETED
+    # COMPLETE
     # ========================================================
 
     print("")
