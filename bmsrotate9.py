@@ -229,10 +229,6 @@ def trigger_code1_pipeline():
 
     project = project_test.json()
 
-    print(
-        "✅ Project: "
-        f"{project.get('path_with_namespace')}"
-    )
 
 
     # ========================================================
@@ -241,7 +237,7 @@ def trigger_code1_pipeline():
 
     print("")
     print("================================================")
-    print("🎟️  BFILMY ADVANCE PIPELINE")
+    print("🎟️   ADVANCE PIPELINE")
     print("================================================")
 
     print(
@@ -252,9 +248,7 @@ def trigger_code1_pipeline():
         f"📅 ADVANCE_DATE : {ADVANCE_DATE}"
     )
 
-    print(
-        f"📦 Project ID   : {GITLAB_PROJECT_ID}"
-    )
+
 
     print("")
     print(
@@ -320,9 +314,6 @@ def trigger_code1_pipeline():
         f"   Date   : {ADVANCE_DATE}"
     )
 
-    print(
-        f"   ID     : {data.get('id')}"
-    )
 
     print(
         f"   Status : {data.get('status')}"
@@ -330,9 +321,6 @@ def trigger_code1_pipeline():
 
     if data.get("web_url"):
 
-        print(
-            f"   URL    : {data['web_url']}"
-        )
 
     print("")
 
@@ -1937,7 +1925,7 @@ def main():
 
     print("")
     print("================================================")
-    print("🎬 BFILMY ADVANCE COMBINED RUN")
+    print("🎬  ADVANCE COMBINED RUN")
     print("================================================")
 
     print(
@@ -1952,9 +1940,7 @@ def main():
         f"📅 DISTRICT DATE: {DATE_DISTRICT}"
     )
 
-    print(
-        f"📦 PROJECT ID   : {GITLAB_PROJECT_ID}"
-    )
+
 
     print("")
 
