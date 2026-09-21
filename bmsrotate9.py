@@ -192,11 +192,6 @@ def trigger_code1_pipeline():
 
     user = auth_test.json()
 
-    print(
-        "✅ Authenticated: "
-        f"{user.get('username') or user.get('name')}"
-    )
-
 
     # ========================================================
     # TEST PROJECT ACCESS
