@@ -1,62 +1,180 @@
 {
   "Drishyam: The Conclusion [2D | Hindi]": {
-    "shows": 26,
-    "gross": 78840.0,
-    "sold": 309,
-    "totalSeats": 4716,
-    "venues": 2,
-    "cities": 2,
+    "shows": 212,
+    "gross": 661050.0,
+    "sold": 1818,
+    "totalSeats": 49096,
+    "venues": 23,
+    "cities": 10,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 6.55,
+    "occupancy": 3.7,
     "details": [
+      {
+        "city": "Nandurbar",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 5,
+        "gross": 10960.0,
+        "sold": 50,
+        "totalSeats": 1785,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.8
+      },
+      {
+        "city": "Cuttack",
+        "state": "Odisha",
+        "venues": 1,
+        "shows": 10,
+        "gross": 59930.0,
+        "sold": 145,
+        "totalSeats": 2100,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.9
+      },
+      {
+        "city": "Raipur",
+        "state": "Chhattisgarh",
+        "venues": 4,
+        "shows": 41,
+        "gross": 80010.0,
+        "sold": 211,
+        "totalSeats": 10606,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.99
+      },
+      {
+        "city": "Hoshiarpur",
+        "state": "Punjab",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1140,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
       {
         "city": "Lucknow",
         "state": "Uttar Pradesh",
         "venues": 1,
         "shows": 20,
-        "gross": 77640.0,
-        "sold": 306,
-        "totalSeats": 3570,
+        "gross": 75010.0,
+        "sold": 292,
+        "totalSeats": 3552,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 8.57
+        "occupancy": 8.22
       },
       {
         "city": "Hazaribagh",
         "state": "Jharkhand",
         "venues": 1,
         "shows": 6,
-        "gross": 1200.0,
-        "sold": 3,
+        "gross": 2000.0,
+        "sold": 7,
         "totalSeats": 1146,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.26
+        "occupancy": 0.61
+      },
+      {
+        "city": "Dhanbad",
+        "state": "Jharkhand",
+        "venues": 1,
+        "shows": 10,
+        "gross": 58760.0,
+        "sold": 212,
+        "totalSeats": 2715,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.81
+      },
+      {
+        "city": "Dhanbad(Jharkhand)",
+        "state": "Jharkhand",
+        "venues": 1,
+        "shows": 5,
+        "gross": 24280.0,
+        "sold": 85,
+        "totalSeats": 1220,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.97
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 10,
+        "gross": 83430.0,
+        "sold": 194,
+        "totalSeats": 1935,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.03
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 11,
+        "shows": 100,
+        "gross": 266670.0,
+        "sold": 622,
+        "totalSeats": 22897,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.72
       }
     ],
     "Chain_details": [
       {
-        "chain": "INOX",
-        "venues": 1,
-        "shows": 20,
-        "gross": 77640.0,
-        "sold": 306,
-        "totalSeats": 3570,
+        "chain": "Miraj Cinemas",
+        "venues": 7,
+        "shows": 45,
+        "gross": 10960.0,
+        "sold": 50,
+        "totalSeats": 10325,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 8.57
+        "occupancy": 0.48
+      },
+      {
+        "chain": "INOX",
+        "venues": 6,
+        "shows": 65,
+        "gross": 288610.0,
+        "sold": 935,
+        "totalSeats": 14708,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.36
+      },
+      {
+        "chain": "PVR",
+        "venues": 9,
+        "shows": 96,
+        "gross": 359480.0,
+        "sold": 826,
+        "totalSeats": 22917,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.6
       },
       {
         "chain": "Eylex Cinemas",
         "venues": 1,
         "shows": 6,
-        "gross": 1200.0,
-        "sold": 3,
+        "gross": 2000.0,
+        "sold": 7,
         "totalSeats": 1146,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.26
+        "occupancy": 0.61
       }
     ]
   }
