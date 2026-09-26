@@ -1,62 +1,98 @@
 {
   "Drishyam: The Conclusion [2D | Hindi]": {
-    "shows": 201,
-    "gross": 802195.0,
-    "sold": 2166,
-    "totalSeats": 48817,
-    "venues": 24,
-    "cities": 12,
-    "fastfilling": 0,
+    "shows": 286,
+    "gross": 1138395.0,
+    "sold": 3202,
+    "totalSeats": 66656,
+    "venues": 35,
+    "cities": 16,
+    "fastfilling": 2,
     "housefull": 0,
-    "occupancy": 4.44,
+    "occupancy": 4.8,
     "details": [
+      {
+        "city": "Gandhinagar",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 10,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1560,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 10,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1900,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
       {
         "city": "Ranchi",
         "state": "Jharkhand",
         "venues": 4,
         "shows": 26,
-        "gross": 113530.0,
-        "sold": 314,
-        "totalSeats": 6062,
+        "gross": 116150.0,
+        "sold": 328,
+        "totalSeats": 6058,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 5.18
+        "occupancy": 5.41
+      },
+      {
+        "city": "Behror",
+        "state": "Rajasthan",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 805,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
       },
       {
         "city": "Vadodara",
         "state": "Gujarat",
-        "venues": 4,
-        "shows": 34,
-        "gross": 109080.0,
-        "sold": 408,
-        "totalSeats": 8896,
-        "fastfilling": 0,
+        "venues": 7,
+        "shows": 54,
+        "gross": 185140.0,
+        "sold": 625,
+        "totalSeats": 12473,
+        "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 4.59
+        "occupancy": 5.01
       },
       {
         "city": "Patiala",
         "state": "Punjab",
         "venues": 1,
         "shows": 10,
-        "gross": 13570.0,
-        "sold": 45,
-        "totalSeats": 1845,
+        "gross": 11780.0,
+        "sold": 38,
+        "totalSeats": 1838,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.44
+        "occupancy": 2.07
       },
       {
         "city": "Bhubaneswar",
         "state": "Odisha",
         "venues": 1,
         "shows": 10,
-        "gross": 43760.0,
-        "sold": 110,
+        "gross": 46730.0,
+        "sold": 119,
         "totalSeats": 2420,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 4.55
+        "occupancy": 4.92
       },
       {
         "city": "Balaghat",
@@ -75,12 +111,12 @@
         "state": "Punjab",
         "venues": 1,
         "shows": 10,
-        "gross": 3520.0,
-        "sold": 16,
+        "gross": 31880.0,
+        "sold": 136,
         "totalSeats": 2740,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.58
+        "occupancy": 4.96
       },
       {
         "city": "Abohar",
@@ -99,117 +135,185 @@
         "state": "Haryana",
         "venues": 1,
         "shows": 5,
-        "gross": 0.0,
-        "sold": 0,
+        "gross": 1500.0,
+        "sold": 5,
         "totalSeats": 1045,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.0
+        "occupancy": 0.48
       },
       {
         "city": "Chandigarh",
         "state": "Punjab",
-        "venues": 2,
-        "shows": 30,
-        "gross": 210585.0,
-        "sold": 431,
-        "totalSeats": 5531,
+        "venues": 3,
+        "shows": 40,
+        "gross": 268925.0,
+        "sold": 619,
+        "totalSeats": 8507,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 7.28
+      },
+      {
+        "city": "Mohali",
+        "state": "Punjab",
+        "venues": 1,
+        "shows": 10,
+        "gross": 28750.0,
+        "sold": 103,
+        "totalSeats": 1666,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.79
+        "occupancy": 6.18
+      },
+      {
+        "city": "Chandigarh",
+        "state": "Chandigarh",
+        "venues": 1,
+        "shows": 5,
+        "gross": 12100.0,
+        "sold": 50,
+        "totalSeats": 1250,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.0
       },
       {
         "city": "Patna",
         "state": "Bihar",
-        "venues": 2,
-        "shows": 15,
-        "gross": 101430.0,
-        "sold": 269,
-        "totalSeats": 3230,
+        "venues": 4,
+        "shows": 30,
+        "gross": 152160.0,
+        "sold": 408,
+        "totalSeats": 7155,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 8.33
+        "occupancy": 5.7
       },
       {
         "city": "Indore",
         "state": "Madhya Pradesh",
         "venues": 5,
         "shows": 46,
-        "gross": 174180.0,
-        "sold": 457,
-        "totalSeats": 13348,
+        "gross": 249460.0,
+        "sold": 651,
+        "totalSeats": 13539,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 3.42
+        "occupancy": 4.81
       },
       {
         "city": "Bokaro",
         "state": "Jharkhand",
         "venues": 1,
         "shows": 5,
-        "gross": 11560.0,
-        "sold": 40,
+        "gross": 12840.0,
+        "sold": 44,
         "totalSeats": 1445,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.77
+        "occupancy": 3.04
       }
     ],
     "Chain_details": [
       {
-        "chain": "PVR",
-        "venues": 9,
-        "shows": 100,
-        "gross": 522605.0,
-        "sold": 1293,
-        "totalSeats": 22423,
+        "chain": "NY Cinemas LLP",
+        "venues": 2,
+        "shows": 20,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 3460,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 5.77
+        "occupancy": 0.0
+      },
+      {
+        "chain": "PVR",
+        "venues": 11,
+        "shows": 120,
+        "gross": 669915.0,
+        "sold": 1820,
+        "totalSeats": 27089,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 6.72
       },
       {
         "chain": "Cinepolis P&A",
         "venues": 1,
         "shows": 5,
-        "gross": 28390.0,
-        "sold": 85,
+        "gross": 29170.0,
+        "sold": 88,
         "totalSeats": 1050,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 8.1
+        "occupancy": 8.38
       },
       {
         "chain": "Miraj Cinemas",
         "venues": 5,
         "shows": 25,
-        "gross": 20980.0,
-        "sold": 76,
+        "gross": 22940.0,
+        "sold": 83,
         "totalSeats": 7580,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 1.0
+        "occupancy": 1.09
       },
       {
         "chain": "Eylex Cinemas",
         "venues": 1,
         "shows": 6,
-        "gross": 4400.0,
-        "sold": 22,
+        "gross": 6600.0,
+        "sold": 33,
         "totalSeats": 1008,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.18
+        "occupancy": 3.27
+      },
+      {
+        "chain": "Mukta A2 Cinemas",
+        "venues": 2,
+        "shows": 10,
+        "gross": 25320.0,
+        "sold": 50,
+        "totalSeats": 1435,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.48
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 3,
+        "shows": 25,
+        "gross": 63060.0,
+        "sold": 189,
+        "totalSeats": 5745,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.29
       },
       {
         "chain": "INOX",
-        "venues": 8,
-        "shows": 65,
-        "gross": 225820.0,
-        "sold": 690,
-        "totalSeats": 16756,
+        "venues": 9,
+        "shows": 70,
+        "gross": 309290.0,
+        "sold": 889,
+        "totalSeats": 18039,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 4.12
+        "occupancy": 4.93
+      },
+      {
+        "chain": "FUN",
+        "venues": 1,
+        "shows": 5,
+        "gross": 12100.0,
+        "sold": 50,
+        "totalSeats": 1250,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.0
       }
     ]
   }
