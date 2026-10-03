@@ -1,69 +1,388 @@
 {
   "Drishyam The Conclusion [2D | Hindi]": {
     "shows": 2482,
-    "gross": 62329046.06,
-    "sold": 192274,
-    "totalSeats": 475301,
+    "gross": 63739059.43,
+    "sold": 196810,
+    "totalSeats": 475337,
     "venues": 248,
     "cities": 109,
-    "fastfilling": 982,
-    "housefull": 57,
-    "occupancy": 40.45
-  },
-  "Avaraachan & Sons [2D | Malayalam]": {
-    "shows": 42,
-    "gross": 378911.24,
-    "sold": 2250,
-    "totalSeats": 10209,
-    "venues": 11,
-    "cities": 9,
-    "fastfilling": 8,
-    "housefull": 0,
-    "occupancy": 22.04
-  },
-  "Sigma [2D | Tamil]": {
-    "shows": 94,
-    "gross": 1127550.6,
-    "sold": 7204,
-    "totalSeats": 29091,
-    "venues": 35,
-    "cities": 15,
-    "fastfilling": 25,
-    "housefull": 1,
-    "occupancy": 24.76
+    "fastfilling": 997,
+    "housefull": 71,
+    "occupancy": 41.4
   },
   "The Vvaan - Force of the Forrest [2D | Hindi]": {
     "shows": 306,
-    "gross": 2506873.54,
-    "sold": 10402,
+    "gross": 2590365.54,
+    "sold": 10824,
     "totalSeats": 46974,
     "venues": 146,
     "cities": 65,
-    "fastfilling": 46,
-    "housefull": 1,
-    "occupancy": 22.14
+    "fastfilling": 48,
+    "housefull": 2,
+    "occupancy": 23.04
   },
   "Sigma [2D | Telugu]": {
     "shows": 56,
-    "gross": 211340.0,
-    "sold": 2052,
+    "gross": 220860.0,
+    "sold": 2161,
     "totalSeats": 17659,
     "venues": 17,
     "cities": 16,
     "fastfilling": 3,
     "housefull": 0,
-    "occupancy": 11.62
+    "occupancy": 12.24
   },
   "The Paradise [2D | Telugu]": {
     "shows": 106,
-    "gross": 923933.79,
-    "sold": 6329,
+    "gross": 949383.79,
+    "sold": 6504,
     "totalSeats": 36115,
     "venues": 28,
     "cities": 28,
     "fastfilling": 12,
     "housefull": 0,
-    "occupancy": 17.52
+    "occupancy": 18.01
+  },
+  "DC [2D | Telugu]": {
+    "shows": 4,
+    "gross": 10910.0,
+    "sold": 191,
+    "totalSeats": 708,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 26.98
+  },
+  "Prem Keetanu [2D | Hindi]": {
+    "shows": 162,
+    "gross": 815241.0,
+    "sold": 3961,
+    "totalSeats": 24417,
+    "venues": 103,
+    "cities": 35,
+    "fastfilling": 0,
+    "housefull": 8,
+    "occupancy": 16.22
+  },
+  "Mandaadi [2D | Tamil]": {
+    "shows": 64,
+    "gross": 1327816.18,
+    "sold": 8114,
+    "totalSeats": 22185,
+    "venues": 25,
+    "cities": 9,
+    "fastfilling": 22,
+    "housefull": 4,
+    "occupancy": 36.57
+  },
+  "Meesaya Murukku 2 [2D | Tamil]": {
+    "shows": 119,
+    "gross": 3088468.28,
+    "sold": 18292,
+    "totalSeats": 45539,
+    "venues": 30,
+    "cities": 9,
+    "fastfilling": 35,
+    "housefull": 10,
+    "occupancy": 40.17
+  },
+  "Sigma [2D | Tamil]": {
+    "shows": 94,
+    "gross": 1205037.65,
+    "sold": 7715,
+    "totalSeats": 29077,
+    "venues": 35,
+    "cities": 15,
+    "fastfilling": 24,
+    "housefull": 2,
+    "occupancy": 26.53
+  },
+  "Baththa [2D | Tamil]": {
+    "shows": 95,
+    "gross": 2403118.47,
+    "sold": 14403,
+    "totalSeats": 30551,
+    "venues": 33,
+    "cities": 16,
+    "fastfilling": 22,
+    "housefull": 18,
+    "occupancy": 47.14
+  },
+  "Hanuman Ansh [2D | Hindi]": {
+    "shows": 205,
+    "gross": 2429186.49,
+    "sold": 10355,
+    "totalSeats": 31955,
+    "venues": 126,
+    "cities": 53,
+    "fastfilling": 59,
+    "housefull": 2,
+    "occupancy": 32.4
+  },
+  "NRC - Nalparar Ramchandra [2D | Assamese]": {
+    "shows": 21,
+    "gross": 401959.28,
+    "sold": 2184,
+    "totalSeats": 3274,
+    "venues": 8,
+    "cities": 4,
+    "fastfilling": 5,
+    "housefull": 7,
+    "occupancy": 66.71
+  },
+  "Pradhama Drishtiya Kuttakkar [2D | Malayalam]": {
+    "shows": 23,
+    "gross": 174813.32,
+    "sold": 956,
+    "totalSeats": 5658,
+    "venues": 9,
+    "cities": 9,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 16.9
+  },
+  "Avaraachan & Sons [2D | Malayalam]": {
+    "shows": 42,
+    "gross": 392218.88,
+    "sold": 2338,
+    "totalSeats": 10209,
+    "venues": 11,
+    "cities": 9,
+    "fastfilling": 8,
+    "housefull": 0,
+    "occupancy": 22.9
+  },
+  "Digger [2D | English]": {
+    "shows": 25,
+    "gross": 55806.02,
+    "sold": 215,
+    "totalSeats": 3695,
+    "venues": 18,
+    "cities": 10,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 5.82
+  },
+  "The Paradise [2D | Hindi]": {
+    "shows": 35,
+    "gross": 104523.0,
+    "sold": 427,
+    "totalSeats": 4943,
+    "venues": 26,
+    "cities": 18,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 8.64
+  },
+  "Anbil Avan [2D | Tamil]": {
+    "shows": 51,
+    "gross": 748626.7,
+    "sold": 4609,
+    "totalSeats": 12347,
+    "venues": 23,
+    "cities": 6,
+    "fastfilling": 12,
+    "housefull": 8,
+    "occupancy": 37.33
+  },
+  "Dorothy [2D | Tamil]": {
+    "shows": 35,
+    "gross": 776991.06,
+    "sold": 4621,
+    "totalSeats": 7666,
+    "venues": 15,
+    "cities": 5,
+    "fastfilling": 17,
+    "housefull": 7,
+    "occupancy": 60.28
+  },
+  "Verity [2D | English]": {
+    "shows": 29,
+    "gross": 523546.5,
+    "sold": 1651,
+    "totalSeats": 4521,
+    "venues": 16,
+    "cities": 9,
+    "fastfilling": 9,
+    "housefull": 1,
+    "occupancy": 36.52
+  },
+  "Heart of the Beast [2D | English]": {
+    "shows": 14,
+    "gross": 212303.58,
+    "sold": 880,
+    "totalSeats": 2510,
+    "venues": 9,
+    "cities": 6,
+    "fastfilling": 2,
+    "housefull": 4,
+    "occupancy": 35.06
+  },
+  "Drishyam The Conclusion [IMAX 2D | Hindi]": {
+    "shows": 6,
+    "gross": 629650.0,
+    "sold": 971,
+    "totalSeats": 1908,
+    "venues": 3,
+    "cities": 3,
+    "fastfilling": 4,
+    "housefull": 0,
+    "occupancy": 50.89
+  },
+  "Yezhu Kadal Yezhu Malai [2D | Tamil]": {
+    "shows": 23,
+    "gross": 245439.9,
+    "sold": 1459,
+    "totalSeats": 4503,
+    "venues": 15,
+    "cities": 6,
+    "fastfilling": 5,
+    "housefull": 2,
+    "occupancy": 32.4
+  },
+  "Avengers Endgame: Encore [3D | English]": {
+    "shows": 5,
+    "gross": 84397.22,
+    "sold": 314,
+    "totalSeats": 782,
+    "venues": 4,
+    "cities": 3,
+    "fastfilling": 2,
+    "housefull": 0,
+    "occupancy": 40.15
+  },
+  "Avengers Endgame: Encore [MS-Infinity Vsn 3d | English]": {
+    "shows": 5,
+    "gross": 318233.46,
+    "sold": 1123,
+    "totalSeats": 1475,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 4,
+    "housefull": 0,
+    "occupancy": 76.14
+  },
+  "Meesaya Murukku 2 [EPIQ | Tamil]": {
+    "shows": 2,
+    "gross": 24800.0,
+    "sold": 124,
+    "totalSeats": 614,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 20.2
+  },
+  "Don't Trouble The Trouble [2D | Telugu]": {
+    "shows": 56,
+    "gross": 283380.0,
+    "sold": 2860,
+    "totalSeats": 19895,
+    "venues": 18,
+    "cities": 17,
+    "fastfilling": 2,
+    "housefull": 0,
+    "occupancy": 14.38
+  },
+  "Avengers Endgame: Encore [4DX 3D | English]": {
+    "shows": 2,
+    "gross": 44520.0,
+    "sold": 106,
+    "totalSeats": 232,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 45.69
+  },
+  "Avengers Endgame: Encore [IMAX 2D | English]": {
+    "shows": 3,
+    "gross": 212810.0,
+    "sold": 513,
+    "totalSeats": 954,
+    "venues": 3,
+    "cities": 3,
+    "fastfilling": 2,
+    "housefull": 0,
+    "occupancy": 53.77
+  },
+  "Digger [MX4D | English]": {
+    "shows": 1,
+    "gross": 15750.0,
+    "sold": 45,
+    "totalSeats": 135,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 33.33
+  },
+  "Premada Oorali [2D | Kannada]": {
+    "shows": 49,
+    "gross": 1583420.0,
+    "sold": 6603,
+    "totalSeats": 14660,
+    "venues": 8,
+    "cities": 5,
+    "fastfilling": 22,
+    "housefull": 1,
+    "occupancy": 45.04
+  },
+  "Avengers Endgame: Encore [3D | Hindi]": {
+    "shows": 10,
+    "gross": 88065.0,
+    "sold": 340,
+    "totalSeats": 1878,
+    "venues": 10,
+    "cities": 7,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 18.1
+  },
+  "Bail [2D | Kannada]": {
+    "shows": 28,
+    "gross": 131310.0,
+    "sold": 936,
+    "totalSeats": 8636,
+    "venues": 8,
+    "cities": 5,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 10.84
+  },
+  "Mitrata [2D | Gujarati]": {
+    "shows": 39,
+    "gross": 370496.0,
+    "sold": 1496,
+    "totalSeats": 3990,
+    "venues": 24,
+    "cities": 3,
+    "fastfilling": 12,
+    "housefull": 1,
+    "occupancy": 37.49
+  },
+  "Verity [4DX | English]": {
+    "shows": 5,
+    "gross": 81040.0,
+    "sold": 165,
+    "totalSeats": 592,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 27.87
+  },
+  "Chatni [2D | Gujarati]": {
+    "shows": 20,
+    "gross": 65676.0,
+    "sold": 416,
+    "totalSeats": 1746,
+    "venues": 15,
+    "cities": 1,
+    "fastfilling": 1,
+    "housefull": 1,
+    "occupancy": 23.83
   },
   "Mahendragiri Varahi [2D | Telugu]": {
     "shows": 3,
@@ -87,39 +406,6 @@
     "housefull": 0,
     "occupancy": 4.82
   },
-  "Don't Trouble The Trouble [2D | Telugu]": {
-    "shows": 56,
-    "gross": 279260.0,
-    "sold": 2819,
-    "totalSeats": 19895,
-    "venues": 18,
-    "cities": 17,
-    "fastfilling": 2,
-    "housefull": 0,
-    "occupancy": 14.17
-  },
-  "DC [2D | Telugu]": {
-    "shows": 4,
-    "gross": 8420.0,
-    "sold": 148,
-    "totalSeats": 708,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 20.9
-  },
-  "Prem Keetanu [2D | Hindi]": {
-    "shows": 162,
-    "gross": 814216.0,
-    "sold": 3950,
-    "totalSeats": 24403,
-    "venues": 103,
-    "cities": 35,
-    "fastfilling": 0,
-    "housefull": 8,
-    "occupancy": 16.19
-  },
   "Don't Trouble The Trouble [2D | Malayalam]": {
     "shows": 20,
     "gross": 55994.22,
@@ -130,50 +416,6 @@
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 7.73
-  },
-  "Yezhu Kadal Yezhu Malai [2D | Tamil]": {
-    "shows": 23,
-    "gross": 233676.7,
-    "sold": 1395,
-    "totalSeats": 4503,
-    "venues": 15,
-    "cities": 6,
-    "fastfilling": 6,
-    "housefull": 1,
-    "occupancy": 30.98
-  },
-  "Mandaadi [2D | Tamil]": {
-    "shows": 64,
-    "gross": 1311631.38,
-    "sold": 8002,
-    "totalSeats": 22185,
-    "venues": 25,
-    "cities": 9,
-    "fastfilling": 21,
-    "housefull": 5,
-    "occupancy": 36.07
-  },
-  "Meesaya Murukku 2 [2D | Tamil]": {
-    "shows": 119,
-    "gross": 2951485.48,
-    "sold": 17411,
-    "totalSeats": 45526,
-    "venues": 30,
-    "cities": 9,
-    "fastfilling": 33,
-    "housefull": 10,
-    "occupancy": 38.24
-  },
-  "Baththa [2D | Tamil]": {
-    "shows": 95,
-    "gross": 2281454.12,
-    "sold": 13448,
-    "totalSeats": 30552,
-    "venues": 33,
-    "cities": 16,
-    "fastfilling": 23,
-    "housefull": 16,
-    "occupancy": 44.02
   },
   "Dear Husband [2D | Hindi]": {
     "shows": 2,
@@ -208,17 +450,6 @@
     "housefull": 0,
     "occupancy": 8.5
   },
-  "Hanuman Ansh [2D | Hindi]": {
-    "shows": 205,
-    "gross": 2384086.49,
-    "sold": 10143,
-    "totalSeats": 31955,
-    "venues": 126,
-    "cities": 53,
-    "fastfilling": 56,
-    "housefull": 2,
-    "occupancy": 31.74
-  },
   "Dhoomakethu [2D | Malayalam]": {
     "shows": 15,
     "gross": 83695.0,
@@ -230,39 +461,6 @@
     "housefull": 0,
     "occupancy": 19.98
   },
-  "Pradhama Drishtiya Kuttakkar [2D | Malayalam]": {
-    "shows": 23,
-    "gross": 171613.32,
-    "sold": 936,
-    "totalSeats": 5658,
-    "venues": 9,
-    "cities": 9,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 16.54
-  },
-  "Digger [2D | English]": {
-    "shows": 25,
-    "gross": 54176.02,
-    "sold": 211,
-    "totalSeats": 3695,
-    "venues": 18,
-    "cities": 10,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 5.71
-  },
-  "The Paradise [2D | Hindi]": {
-    "shows": 35,
-    "gross": 100073.0,
-    "sold": 410,
-    "totalSeats": 4943,
-    "venues": 26,
-    "cities": 18,
-    "fastfilling": 1,
-    "housefull": 0,
-    "occupancy": 8.29
-  },
   "Bhed [2D | Chattisgarhi]": {
     "shows": 7,
     "gross": 7540.0,
@@ -273,94 +471,6 @@
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 1.16
-  },
-  "Anbil Avan [2D | Tamil]": {
-    "shows": 51,
-    "gross": 732298.25,
-    "sold": 4502,
-    "totalSeats": 12363,
-    "venues": 23,
-    "cities": 6,
-    "fastfilling": 15,
-    "housefull": 4,
-    "occupancy": 36.42
-  },
-  "Dorothy [2D | Tamil]": {
-    "shows": 35,
-    "gross": 757498.26,
-    "sold": 4501,
-    "totalSeats": 7666,
-    "venues": 15,
-    "cities": 5,
-    "fastfilling": 17,
-    "housefull": 7,
-    "occupancy": 58.71
-  },
-  "Verity [2D | English]": {
-    "shows": 29,
-    "gross": 511298.12,
-    "sold": 1629,
-    "totalSeats": 4521,
-    "venues": 16,
-    "cities": 9,
-    "fastfilling": 9,
-    "housefull": 1,
-    "occupancy": 36.03
-  },
-  "Heart of the Beast [2D | English]": {
-    "shows": 14,
-    "gross": 211306.54,
-    "sold": 876,
-    "totalSeats": 2510,
-    "venues": 9,
-    "cities": 6,
-    "fastfilling": 4,
-    "housefull": 2,
-    "occupancy": 34.9
-  },
-  "Drishyam The Conclusion [IMAX 2D | Hindi]": {
-    "shows": 6,
-    "gross": 617780.0,
-    "sold": 947,
-    "totalSeats": 1908,
-    "venues": 3,
-    "cities": 3,
-    "fastfilling": 4,
-    "housefull": 0,
-    "occupancy": 49.63
-  },
-  "Avengers Endgame: Encore [3D | English]": {
-    "shows": 5,
-    "gross": 78908.76,
-    "sold": 295,
-    "totalSeats": 782,
-    "venues": 4,
-    "cities": 3,
-    "fastfilling": 2,
-    "housefull": 0,
-    "occupancy": 37.72
-  },
-  "Avengers Endgame: Encore [MS-Infinity Vsn 3d | English]": {
-    "shows": 5,
-    "gross": 315370.94,
-    "sold": 1111,
-    "totalSeats": 1475,
-    "venues": 3,
-    "cities": 2,
-    "fastfilling": 4,
-    "housefull": 0,
-    "occupancy": 75.32
-  },
-  "Meesaya Murukku 2 [EPIQ | Tamil]": {
-    "shows": 2,
-    "gross": 22000.0,
-    "sold": 110,
-    "totalSeats": 614,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 17.92
   },
   "Modha Rathri [2D | Tamil]": {
     "shows": 5,
@@ -406,17 +516,6 @@
     "housefull": 0,
     "occupancy": 13.71
   },
-  "Verity [4DX | English]": {
-    "shows": 5,
-    "gross": 77800.0,
-    "sold": 159,
-    "totalSeats": 592,
-    "venues": 2,
-    "cities": 2,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 26.86
-  },
   "Doraemon: Castle of the Undersea Devil [2D | Hindi]": {
     "shows": 71,
     "gross": 1387232.0,
@@ -428,17 +527,6 @@
     "housefull": 0,
     "occupancy": 43.32
   },
-  "Avengers Endgame: Encore [4DX 3D | English]": {
-    "shows": 2,
-    "gross": 44100.0,
-    "sold": 105,
-    "totalSeats": 232,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 1,
-    "housefull": 0,
-    "occupancy": 45.26
-  },
   "Doraemon: Castle of the Undersea Devil [MX4D | Hindi]": {
     "shows": 2,
     "gross": 73970.0,
@@ -449,28 +537,6 @@
     "fastfilling": 2,
     "housefull": 0,
     "occupancy": 67.04
-  },
-  "Avengers Endgame: Encore [IMAX 2D | English]": {
-    "shows": 3,
-    "gross": 218730.0,
-    "sold": 530,
-    "totalSeats": 954,
-    "venues": 3,
-    "cities": 3,
-    "fastfilling": 2,
-    "housefull": 0,
-    "occupancy": 55.56
-  },
-  "Digger [MX4D | English]": {
-    "shows": 1,
-    "gross": 16450.0,
-    "sold": 47,
-    "totalSeats": 135,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 34.81
   },
   "Mirzapur: The Movie [2D | Hindi]": {
     "shows": 17,
@@ -494,39 +560,6 @@
     "housefull": 0,
     "occupancy": 18.03
   },
-  "NRC - Nalparar Ramchandra [2D | Assamese]": {
-    "shows": 20,
-    "gross": 401959.28,
-    "sold": 2184,
-    "totalSeats": 3116,
-    "venues": 8,
-    "cities": 4,
-    "fastfilling": 5,
-    "housefull": 7,
-    "occupancy": 70.09
-  },
-  "Premada Oorali [2D | Kannada]": {
-    "shows": 49,
-    "gross": 1439670.0,
-    "sold": 6019,
-    "totalSeats": 14660,
-    "venues": 8,
-    "cities": 5,
-    "fastfilling": 19,
-    "housefull": 1,
-    "occupancy": 41.06
-  },
-  "Bail [2D | Kannada]": {
-    "shows": 28,
-    "gross": 129360.0,
-    "sold": 926,
-    "totalSeats": 8636,
-    "venues": 8,
-    "cities": 5,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 10.72
-  },
   "Hulibeera [2D | Kannada]": {
     "shows": 6,
     "gross": 42970.0,
@@ -537,17 +570,6 @@
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 17.02
-  },
-  "Avengers Endgame: Encore [3D | Hindi]": {
-    "shows": 10,
-    "gross": 85865.0,
-    "sold": 326,
-    "totalSeats": 1878,
-    "venues": 10,
-    "cities": 7,
-    "fastfilling": 1,
-    "housefull": 0,
-    "occupancy": 17.36
   },
   "Citylights [2D | Kannada]": {
     "shows": 6,
@@ -581,28 +603,6 @@
     "fastfilling": 2,
     "housefull": 0,
     "occupancy": 25.68
-  },
-  "Mitrata [2D | Gujarati]": {
-    "shows": 39,
-    "gross": 361316.0,
-    "sold": 1468,
-    "totalSeats": 3990,
-    "venues": 24,
-    "cities": 3,
-    "fastfilling": 12,
-    "housefull": 1,
-    "occupancy": 36.79
-  },
-  "Chatni [2D | Gujarati]": {
-    "shows": 20,
-    "gross": 61104.0,
-    "sold": 386,
-    "totalSeats": 1746,
-    "venues": 15,
-    "cities": 1,
-    "fastfilling": 1,
-    "housefull": 1,
-    "occupancy": 22.11
   },
   "Jadi: The Untold Side of If [2D | Odia]": {
     "shows": 17,
