@@ -1,74 +1,131 @@
 {
   "Drishyam The Conclusion [2D | Hindi]": {
-    "shows": 42,
-    "gross": 12270.0,
-    "sold": 33,
-    "totalSeats": 13307,
-    "venues": 8,
-    "cities": 3,
+    "shows": 77,
+    "gross": 137930.0,
+    "sold": 454,
+    "totalSeats": 23047,
+    "venues": 14,
+    "cities": 5,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.25,
+    "occupancy": 1.97,
     "details": [
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "venues": 5,
+        "shows": 30,
+        "gross": 48480.0,
+        "sold": 118,
+        "totalSeats": 8920,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.32
+      },
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "venues": 4,
-        "shows": 22,
-        "gross": 7280.0,
-        "sold": 19,
-        "totalSeats": 6832,
+        "venues": 6,
+        "shows": 32,
+        "gross": 85890.0,
+        "sold": 325,
+        "totalSeats": 10007,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.28
+        "occupancy": 3.25
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1305,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
       },
       {
         "city": "Kalyan",
         "state": "Maharashtra",
         "venues": 1,
         "shows": 5,
-        "gross": 2000.0,
-        "sold": 6,
+        "gross": 3560.0,
+        "sold": 11,
         "totalSeats": 1680,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.36
+        "occupancy": 0.65
       },
       {
-        "city": "Thane",
+        "city": "Ulhasnagar",
         "state": "Maharashtra",
-        "venues": 3,
-        "shows": 15,
-        "gross": 2990.0,
-        "sold": 8,
-        "totalSeats": 4795,
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1135,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.17
+        "occupancy": 0.0
       }
     ],
     "Chain_details": [
       {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 10,
+        "gross": 42200.0,
+        "sold": 100,
+        "totalSeats": 2540,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.94
+      },
+      {
+        "chain": "MOVIETIME",
+        "venues": 2,
+        "shows": 10,
+        "gross": 69060.0,
+        "sold": 277,
+        "totalSeats": 3175,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.72
+      },
+      {
+        "chain": "Purple Parrots Entertainment And Hospitality",
+        "venues": 2,
+        "shows": 10,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 2440,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
         "chain": "MovieMax",
         "venues": 6,
         "shows": 31,
-        "gross": 12270.0,
-        "sold": 33,
+        "gross": 19660.0,
+        "sold": 56,
         "totalSeats": 9553,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.35
+        "occupancy": 0.59
       },
       {
         "chain": "Cinex Cinemas",
         "venues": 1,
         "shows": 6,
-        "gross": 0.0,
-        "sold": 0,
+        "gross": 7010.0,
+        "sold": 21,
         "totalSeats": 2004,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.0
+        "occupancy": 1.05
       },
       {
         "chain": "Cine Cloud Enterprises: Thane",
@@ -77,6 +134,17 @@
         "gross": 0.0,
         "sold": 0,
         "totalSeats": 1750,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "Gold Cinema",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1585,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -123,26 +191,26 @@
   },
   "Premada Oorali [2D | Kannada]": {
     "shows": 4,
-    "gross": 0.0,
-    "sold": 0,
+    "gross": 900.0,
+    "sold": 4,
     "totalSeats": 3124,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.0,
+    "occupancy": 0.13,
     "details": [
       {
         "city": "Davanagere",
         "state": "Karnataka",
         "venues": 1,
         "shows": 4,
-        "gross": 0.0,
-        "sold": 0,
+        "gross": 900.0,
+        "sold": 4,
         "totalSeats": 3124,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.0
+        "occupancy": 0.13
       }
     ],
     "Chain_details": [
@@ -150,12 +218,12 @@
         "chain": "Shiva Exhibitors",
         "venues": 1,
         "shows": 4,
-        "gross": 0.0,
-        "sold": 0,
+        "gross": 900.0,
+        "sold": 4,
         "totalSeats": 3124,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.0
+        "occupancy": 0.13
       }
     ]
   }
