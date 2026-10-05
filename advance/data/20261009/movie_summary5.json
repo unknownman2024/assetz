@@ -1,39 +1,74 @@
 {
   "Drishyam The Conclusion [2D | Hindi]": {
-    "shows": 18,
-    "gross": 0.0,
-    "sold": 0,
-    "totalSeats": 2868,
-    "venues": 2,
-    "cities": 1,
+    "shows": 16,
+    "gross": 57000.0,
+    "sold": 202,
+    "totalSeats": 7048,
+    "venues": 4,
+    "cities": 3,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.0,
+    "occupancy": 2.87,
     "details": [
       {
         "city": "Noida",
         "state": "NCR",
         "venues": 2,
-        "shows": 18,
+        "shows": 6,
         "gross": 0.0,
         "sold": 0,
-        "totalSeats": 2868,
+        "totalSeats": 498,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
+      },
+      {
+        "city": "Delhi",
+        "state": "NCR",
+        "venues": 1,
+        "shows": 5,
+        "gross": 32200.0,
+        "sold": 140,
+        "totalSeats": 4900,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.86
+      },
+      {
+        "city": "Ghaziabad",
+        "state": "NCR",
+        "venues": 1,
+        "shows": 5,
+        "gross": 24800.0,
+        "sold": 62,
+        "totalSeats": 1650,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.76
       }
     ],
     "Chain_details": [
       {
         "chain": "MovieMax",
-        "venues": 2,
-        "shows": 18,
-        "gross": 0.0,
-        "sold": 0,
-        "totalSeats": 2868,
+        "venues": 3,
+        "shows": 11,
+        "gross": 24800.0,
+        "sold": 62,
+        "totalSeats": 2148,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.0
+        "occupancy": 2.89
+      },
+      {
+        "chain": "DELITE MULTIPLEX",
+        "venues": 1,
+        "shows": 5,
+        "gross": 32200.0,
+        "sold": 140,
+        "totalSeats": 4900,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.86
       }
     ]
   },
@@ -260,6 +295,82 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
+      }
+    ]
+  },
+  "Premada Oorali [2D | Kannada]": {
+    "shows": 4,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 800,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 800,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Sri Vinayaka Theatre Harohalli",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 800,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "The Vvaan - Force of the Forrest [2D | Hindi]": {
+    "shows": 1,
+    "gross": 1020.0,
+    "sold": 6,
+    "totalSeats": 179,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 3.35,
+    "details": [
+      {
+        "city": "Muzaffarpur",
+        "state": "Bihar",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1020.0,
+        "sold": 6,
+        "totalSeats": 179,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.35
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1020.0,
+        "sold": 6,
+        "totalSeats": 179,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.35
       }
     ]
   }
