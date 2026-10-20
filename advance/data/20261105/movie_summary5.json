@@ -1,39 +1,375 @@
 {
-  "Ramayana [3D | Kannada]": {
-    "shows": 4,
-    "gross": 99350.0,
-    "sold": 469,
-    "totalSeats": 2108,
+  "Ramayana [3D | Hindi]": {
+    "shows": 227,
+    "gross": 1627600.0,
+    "sold": 3512,
+    "totalSeats": 52659,
+    "venues": 28,
+    "cities": 13,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 6.67,
+    "details": [
+      {
+        "city": "Gurugram (Gurgaon)",
+        "state": "NCR",
+        "venues": 4,
+        "shows": 29,
+        "gross": 152850.0,
+        "sold": 327,
+        "totalSeats": 5890,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.55
+      },
+      {
+        "city": "Delhi",
+        "state": "NCR",
+        "venues": 11,
+        "shows": 89,
+        "gross": 753130.0,
+        "sold": 1321,
+        "totalSeats": 18700,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.06
+      },
+      {
+        "city": "Noida",
+        "state": "NCR",
+        "venues": 1,
+        "shows": 4,
+        "gross": 14900.0,
+        "sold": 29,
+        "totalSeats": 770,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.77
+      },
+      {
+        "city": "Ghaziabad",
+        "state": "NCR",
+        "venues": 1,
+        "shows": 4,
+        "gross": 38950.0,
+        "sold": 92,
+        "totalSeats": 892,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.31
+      },
+      {
+        "city": "Faridabad",
+        "state": "NCR",
+        "venues": 1,
+        "shows": 4,
+        "gross": 17590.0,
+        "sold": 46,
+        "totalSeats": 808,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.69
+      },
+      {
+        "city": "Bilaspur",
+        "state": "Chhattisgarh",
+        "venues": 1,
+        "shows": 9,
+        "gross": 64660.0,
+        "sold": 164,
+        "totalSeats": 1334,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.29
+      },
+      {
+        "city": "Chhatrapati Sambhajinagar (Aurangabad)",
+        "state": "Maharashtra",
+        "venues": 2,
+        "shows": 21,
+        "gross": 223380.0,
+        "sold": 538,
+        "totalSeats": 5579,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.64
+      },
+      {
+        "city": "Kolhapur",
+        "state": "Maharashtra",
+        "venues": 2,
+        "shows": 20,
+        "gross": 140100.0,
+        "sold": 366,
+        "totalSeats": 5215,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.02
+      },
+      {
+        "city": "Jodhpur",
+        "state": "Rajasthan",
+        "venues": 1,
+        "shows": 9,
+        "gross": 8890.0,
+        "sold": 21,
+        "totalSeats": 1619,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.3
+      },
+      {
+        "city": "Latur",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 10,
+        "gross": 70260.0,
+        "sold": 233,
+        "totalSeats": 3560,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.54
+      },
+      {
+        "city": "Nanded",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 9,
+        "gross": 46980.0,
+        "sold": 162,
+        "totalSeats": 2259,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.17
+      },
+      {
+        "city": "Sonipat",
+        "state": "Haryana",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1315,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "city": "Goa",
+        "state": "Goa",
+        "venues": 1,
+        "shows": 14,
+        "gross": 95910.0,
+        "sold": 213,
+        "totalSeats": 4718,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.51
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 12,
+        "shows": 93,
+        "gross": 843890.0,
+        "sold": 1928,
+        "totalSeats": 21582,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.93
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 3,
+        "shows": 24,
+        "gross": 55540.0,
+        "sold": 132,
+        "totalSeats": 4568,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.89
+      },
+      {
+        "chain": "INOX",
+        "venues": 10,
+        "shows": 93,
+        "gross": 679630.0,
+        "sold": 1354,
+        "totalSeats": 22420,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.04
+      },
+      {
+        "chain": "Miraj Cinemas",
+        "venues": 2,
+        "shows": 9,
+        "gross": 14900.0,
+        "sold": 29,
+        "totalSeats": 2085,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.39
+      },
+      {
+        "chain": "FUN",
+        "venues": 1,
+        "shows": 8,
+        "gross": 33640.0,
+        "sold": 69,
+        "totalSeats": 2004,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.44
+      }
+    ]
+  },
+  "Ramayana [4DX 3D | Hindi]": {
+    "shows": 5,
+    "gross": 47440.0,
+    "sold": 64,
+    "totalSeats": 480,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 22.25,
+    "occupancy": 13.33,
     "details": [
+      {
+        "city": "Gurugram (Gurgaon)",
+        "state": "NCR",
+        "venues": 1,
+        "shows": 5,
+        "gross": 47440.0,
+        "sold": 64,
+        "totalSeats": 480,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 13.33
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 5,
+        "gross": 47440.0,
+        "sold": 64,
+        "totalSeats": 480,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 13.33
+      }
+    ]
+  },
+  "Ramayana [2D | Hindi]": {
+    "shows": 4,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 1080,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Saharanpur",
+        "state": "Uttar Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1080,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Miraj Cinemas",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1080,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "Ramayana [3D | Kannada]": {
+    "shows": 12,
+    "gross": 170800.0,
+    "sold": 654,
+    "totalSeats": 3556,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 18.39,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 2,
+        "shows": 8,
+        "gross": 57400.0,
+        "sold": 123,
+        "totalSeats": 1448,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.49
+      },
       {
         "city": "Doddaballapura",
         "state": "Karnataka",
         "venues": 1,
         "shows": 4,
-        "gross": 99350.0,
-        "sold": 469,
+        "gross": 113400.0,
+        "sold": 531,
         "totalSeats": 2108,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 22.25
+        "occupancy": 25.19
       }
     ],
     "Chain_details": [
       {
+        "chain": "Vara Entertainment LLP",
+        "venues": 1,
+        "shows": 4,
+        "gross": 41000.0,
+        "sold": 82,
+        "totalSeats": 776,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.57
+      },
+      {
+        "chain": "Cavalry Entertainment LLP",
+        "venues": 1,
+        "shows": 4,
+        "gross": 16400.0,
+        "sold": 41,
+        "totalSeats": 672,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.1
+      },
+      {
         "chain": "Soundarya Mahal Picture House: Doddaballapura",
         "venues": 1,
         "shows": 4,
-        "gross": 99350.0,
-        "sold": 469,
+        "gross": 113400.0,
+        "sold": 531,
         "totalSeats": 2108,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 22.25
+        "occupancy": 25.19
       }
     ]
   }
