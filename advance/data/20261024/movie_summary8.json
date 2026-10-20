@@ -1,85 +1,142 @@
 {
   "Jailer 2 [2D | Tamil]": {
-    "shows": 24,
-    "gross": 136425.0,
-    "sold": 842,
-    "totalSeats": 11525,
-    "venues": 6,
-    "cities": 3,
-    "fastfilling": 2,
+    "shows": 57,
+    "gross": 314621.16,
+    "sold": 1995,
+    "totalSeats": 23361,
+    "venues": 12,
+    "cities": 5,
+    "fastfilling": 5,
     "housefull": 0,
-    "occupancy": 7.31,
+    "occupancy": 8.54,
     "details": [
+      {
+        "city": "Pathanamthitta",
+        "state": "Kerala",
+        "venues": 2,
+        "shows": 8,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1996,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
       {
         "city": "Madurai",
         "state": "Tamil Nadu",
-        "venues": 4,
-        "shows": 16,
-        "gross": 79100.0,
-        "sold": 416,
-        "totalSeats": 8744,
+        "venues": 6,
+        "shows": 33,
+        "gross": 95911.16,
+        "sold": 598,
+        "totalSeats": 15065,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 4.76
+        "occupancy": 3.97
       },
       {
         "city": "Pondicherry",
         "state": "Tamil Nadu",
+        "venues": 2,
+        "shows": 8,
+        "gross": 207310.0,
+        "sold": 1337,
+        "totalSeats": 2684,
+        "fastfilling": 5,
+        "housefull": 0,
+        "occupancy": 49.81
+      },
+      {
+        "city": "Acharapakkam",
+        "state": "Tamil Nadu",
         "venues": 1,
         "shows": 4,
-        "gross": 51055.0,
-        "sold": 393,
-        "totalSeats": 1041,
-        "fastfilling": 2,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1876,
+        "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 37.75
+        "occupancy": 0.0
       },
       {
         "city": "Kanchipuram",
         "state": "Tamil Nadu",
         "venues": 1,
         "shows": 4,
-        "gross": 6270.0,
-        "sold": 33,
+        "gross": 11400.0,
+        "sold": 60,
         "totalSeats": 1740,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 1.9
+        "occupancy": 3.45
       }
     ],
     "Chain_details": [
       {
+        "chain": "Trinity Movie Max",
+        "venues": 2,
+        "shows": 8,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1996,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "Gopuram Cinemas: Madurai",
+        "venues": 1,
+        "shows": 13,
+        "gross": 7121.16,
+        "sold": 131,
+        "totalSeats": 4455,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.94
+      },
+      {
         "chain": "Ganesh Theatre: Madurai",
         "venues": 1,
         "shows": 4,
-        "gross": 23560.0,
-        "sold": 124,
+        "gross": 24130.0,
+        "sold": 127,
         "totalSeats": 2292,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 5.41
+        "occupancy": 5.54
+      },
+      {
+        "chain": "Tamil Jaya Cinemas",
+        "venues": 1,
+        "shows": 4,
+        "gross": 6080.0,
+        "sold": 32,
+        "totalSeats": 1864,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.72
       },
       {
         "chain": "Guru Cinemas: Madurai",
         "venues": 1,
         "shows": 4,
-        "gross": 1140.0,
-        "sold": 6,
-        "totalSeats": 2608,
+        "gross": 3420.0,
+        "sold": 18,
+        "totalSeats": 2610,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.23
+        "occupancy": 0.69
       },
       {
         "chain": "Solamalai Cinemas: Madurai",
         "venues": 1,
         "shows": 4,
-        "gross": 53200.0,
-        "sold": 280,
+        "gross": 53960.0,
+        "sold": 284,
         "totalSeats": 2272,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 12.32
+        "occupancy": 12.5
       },
       {
         "chain": "Ritzy Cinemas",
@@ -93,23 +150,155 @@
         "occupancy": 0.38
       },
       {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 4,
+        "gross": 145180.0,
+        "sold": 858,
+        "totalSeats": 1640,
+        "fastfilling": 3,
+        "housefull": 0,
+        "occupancy": 52.32
+      },
+      {
         "chain": "Shanmuga Cinemas",
         "venues": 1,
         "shows": 4,
-        "gross": 51055.0,
-        "sold": 393,
-        "totalSeats": 1041,
+        "gross": 62130.0,
+        "sold": 479,
+        "totalSeats": 1044,
         "fastfilling": 2,
         "housefull": 0,
-        "occupancy": 37.75
+        "occupancy": 45.88
+      },
+      {
+        "chain": "Anand Theatre: Acharapakkam",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1876,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
       },
       {
         "chain": "Karthikeyan Cinemas A/C",
         "venues": 1,
         "shows": 4,
-        "gross": 6270.0,
-        "sold": 33,
+        "gross": 11400.0,
+        "sold": 60,
         "totalSeats": 1740,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.45
+      }
+    ]
+  },
+  "Titans [2D | Malayalam]": {
+    "shows": 8,
+    "gross": 2370.0,
+    "sold": 13,
+    "totalSeats": 2968,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.44,
+    "details": [
+      {
+        "city": "Pathanamthitta",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 4,
+        "gross": 2090.0,
+        "sold": 11,
+        "totalSeats": 1000,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.1
+      },
+      {
+        "city": "Kollam",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 4,
+        "gross": 280.0,
+        "sold": 2,
+        "totalSeats": 1968,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.1
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Trinity Movie Max",
+        "venues": 1,
+        "shows": 4,
+        "gross": 2090.0,
+        "sold": 11,
+        "totalSeats": 1000,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.1
+      },
+      {
+        "chain": "Usha cinemas A/c: Kollam",
+        "venues": 1,
+        "shows": 4,
+        "gross": 280.0,
+        "sold": 2,
+        "totalSeats": 1968,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.1
+      }
+    ]
+  },
+  "Udta Teer [2D | Hindi]": {
+    "shows": 16,
+    "gross": 26160.0,
+    "sold": 84,
+    "totalSeats": 5115,
+    "venues": 3,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 1.64,
+    "details": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "venues": 3,
+        "shows": 16,
+        "gross": 26160.0,
+        "sold": 84,
+        "totalSeats": 5115,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.64
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "INOX",
+        "venues": 1,
+        "shows": 5,
+        "gross": 2000.0,
+        "sold": 8,
+        "totalSeats": 1108,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.72
+      },
+      {
+        "chain": "PVR",
+        "venues": 2,
+        "shows": 11,
+        "gross": 24160.0,
+        "sold": 76,
+        "totalSeats": 4007,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 1.9
@@ -154,11 +343,11 @@
       }
     ]
   },
-  "Titans [2D | Malayalam]": {
+  "Premada Oorali [2D | Kannada]": {
     "shows": 4,
     "gross": 0.0,
     "sold": 0,
-    "totalSeats": 1968,
+    "totalSeats": 1368,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
@@ -166,13 +355,13 @@
     "occupancy": 0.0,
     "details": [
       {
-        "city": "Kollam",
-        "state": "Kerala",
+        "city": "Baindur",
+        "state": "Karnataka",
         "venues": 1,
         "shows": 4,
         "gross": 0.0,
         "sold": 0,
-        "totalSeats": 1968,
+        "totalSeats": 1368,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -180,12 +369,12 @@
     ],
     "Chain_details": [
       {
-        "chain": "Usha cinemas A/c: Kollam",
+        "chain": "J.K. Cinemas Group",
         "venues": 1,
         "shows": 4,
         "gross": 0.0,
         "sold": 0,
-        "totalSeats": 1968,
+        "totalSeats": 1368,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
