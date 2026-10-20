@@ -1,26 +1,62 @@
 {
   "Jailer 2 [2D | Tamil]": {
-    "shows": 8,
-    "gross": 21660.0,
-    "sold": 114,
-    "totalSeats": 3880,
-    "venues": 2,
-    "cities": 2,
+    "shows": 40,
+    "gross": 208322.65,
+    "sold": 1265,
+    "totalSeats": 12403,
+    "venues": 9,
+    "cities": 7,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 2.94,
+    "occupancy": 10.2,
     "details": [
+      {
+        "city": "Thamarassery",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 440,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
       {
         "city": "Kanchipuram",
         "state": "Tamil Nadu",
         "venues": 1,
         "shows": 4,
-        "gross": 21660.0,
-        "sold": 114,
+        "gross": 87780.0,
+        "sold": 462,
         "totalSeats": 2908,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 3.92
+        "occupancy": 15.89
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 2,
+        "shows": 10,
+        "gross": 44840.0,
+        "sold": 236,
+        "totalSeats": 3648,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.47
+      },
+      {
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "venues": 2,
+        "shows": 10,
+        "gross": 52002.65,
+        "sold": 409,
+        "totalSeats": 1711,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 23.9
       },
       {
         "city": "Thrissur",
@@ -33,19 +69,98 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
+      },
+      {
+        "city": "Thuraiyur",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 23700.0,
+        "sold": 158,
+        "totalSeats": 1580,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.0
+      },
+      {
+        "city": "Batlagundu",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1144,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
       }
     ],
     "Chain_details": [
       {
+        "chain": "City Cinema: Thamarassery",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 440,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
         "chain": "Babu Theatre: Kanchipuram",
         "venues": 1,
         "shows": 4,
-        "gross": 21660.0,
-        "sold": 114,
+        "gross": 87780.0,
+        "sold": 462,
         "totalSeats": 2908,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 3.92
+        "occupancy": 15.89
+      },
+      {
+        "chain": "Shri Sai Circuit 6000",
+        "venues": 1,
+        "shows": 6,
+        "gross": 44840.0,
+        "sold": 236,
+        "totalSeats": 1892,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.47
+      },
+      {
+        "chain": "Arul Muruga Theatre",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1756,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 5,
+        "gross": 36274.85,
+        "sold": 253,
+        "totalSeats": 905,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 27.96
+      },
+      {
+        "chain": "INOX",
+        "venues": 1,
+        "shows": 5,
+        "gross": 15727.8,
+        "sold": 156,
+        "totalSeats": 806,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.35
       },
       {
         "chain": "Shadow Cinemas",
@@ -54,6 +169,66 @@
         "gross": 0.0,
         "sold": 0,
         "totalSeats": 972,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "Maris Cinema",
+        "venues": 1,
+        "shows": 4,
+        "gross": 23700.0,
+        "sold": 158,
+        "totalSeats": 1580,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.0
+      },
+      {
+        "chain": "Parimalam Cinemas: Batlagundu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1144,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "The Vvaan - Force of the Forrest [2D | Hindi]": {
+    "shows": 4,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 568,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Shimla",
+        "state": "Himachal Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 568,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Shahi Theatre: Shimla",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 568,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -121,11 +296,72 @@
       }
     ]
   },
-  "Jailer 2 [2D | Telugu]": {
+  "Udta Teer [2D | Hindi]": {
+    "shows": 10,
+    "gross": 16600.0,
+    "sold": 40,
+    "totalSeats": 2960,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 1.35,
+    "details": [
+      {
+        "city": "Dehradun",
+        "state": "Uttarakhand",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 845,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "city": "Ghaziabad",
+        "state": "NCR",
+        "venues": 1,
+        "shows": 5,
+        "gross": 16600.0,
+        "sold": 40,
+        "totalSeats": 2115,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.89
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 845,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "INOX",
+        "venues": 1,
+        "shows": 5,
+        "gross": 16600.0,
+        "sold": 40,
+        "totalSeats": 2115,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.89
+      }
+    ]
+  },
+  "Premada Oorali [2D | Kannada]": {
     "shows": 4,
     "gross": 0.0,
     "sold": 0,
-    "totalSeats": 1252,
+    "totalSeats": 520,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
@@ -133,13 +369,13 @@
     "occupancy": 0.0,
     "details": [
       {
-        "city": "Nellore",
-        "state": "Andhra Pradesh",
+        "city": "Shirali",
+        "state": "Karnataka",
         "venues": 1,
         "shows": 4,
         "gross": 0.0,
         "sold": 0,
-        "totalSeats": 1252,
+        "totalSeats": 520,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -147,12 +383,88 @@
     ],
     "Chain_details": [
       {
-        "chain": "Rain Cinema: Nellore",
+        "chain": "J.K. Cinemas Group",
         "venues": 1,
         "shows": 4,
         "gross": 0.0,
         "sold": 0,
-        "totalSeats": 1252,
+        "totalSeats": 520,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "Jailer 2 [2D | Kannada]": {
+    "shows": 1,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 130,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Shirali",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 130,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "J.K. Cinemas Group",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 130,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "Garividi Lakshmi [2D | Telugu]": {
+    "shows": 4,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 637,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Narasannapeta",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 637,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 637,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -160,16 +472,28 @@
     ]
   },
   "Ranabaali [2D | Telugu]": {
-    "shows": 4,
+    "shows": 8,
     "gross": 0.0,
     "sold": 0,
-    "totalSeats": 1256,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 3912,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 0.0,
     "details": [
+      {
+        "city": "Narasannapeta",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 2656,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
       {
         "city": "Nellore",
         "state": "Andhra Pradesh",
@@ -185,12 +509,84 @@
     ],
     "Chain_details": [
       {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 2656,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
         "chain": "Rain Cinema: Nellore",
         "venues": 1,
         "shows": 4,
         "gross": 0.0,
         "sold": 0,
         "totalSeats": 1256,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ]
+  },
+  "Jailer 2 [2D | Telugu]": {
+    "shows": 6,
+    "gross": 0.0,
+    "sold": 0,
+    "totalSeats": 2020,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.0,
+    "details": [
+      {
+        "city": "Nellore",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1252,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "city": "Varadaiahpalem",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 768,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Rain Cinema: Nellore",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 1252,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "chain": "Gowri Shankar Talkies: Varadaiahpalem",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 768,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -313,26 +709,26 @@
   },
   "Fast & Furious 7 [3D | English]": {
     "shows": 1,
-    "gross": 1950.0,
-    "sold": 13,
+    "gross": 2250.0,
+    "sold": 15,
     "totalSeats": 165,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 7.88,
+    "occupancy": 9.09,
     "details": [
       {
         "city": "Jaipur",
         "state": "Rajasthan",
         "venues": 1,
         "shows": 1,
-        "gross": 1950.0,
-        "sold": 13,
+        "gross": 2250.0,
+        "sold": 15,
         "totalSeats": 165,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.88
+        "occupancy": 9.09
       }
     ],
     "Chain_details": [
@@ -340,12 +736,12 @@
         "chain": "Cinepolis",
         "venues": 1,
         "shows": 1,
-        "gross": 1950.0,
-        "sold": 13,
+        "gross": 2250.0,
+        "sold": 15,
         "totalSeats": 165,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.88
+        "occupancy": 9.09
       }
     ]
   },
