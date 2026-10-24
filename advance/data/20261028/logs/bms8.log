@@ -392,3 +392,672 @@
 [17:00:10] [326/326] BGTC
 [17:00:10] 🧹 Deduping shows
 [17:00:10] ✅ DONE | Shows=483 | Movies=46
+[05:19:40] 🚀 SCRIPT STARTED (enhanced anti‑detection)
+[05:19:40] [1/326] BSAT
+[05:19:41] 🧠 New identity created
+[05:19:41] 🔄 Retry 1/5 for BSAT in 2.7s
+[05:19:41] 🔄 Identity reset
+[05:19:44] 🧠 New identity created
+[05:19:44] 🔄 Retry 2/5 for BSAT in 4.9s
+[05:19:44] 🔄 Identity reset
+[05:19:49] 🧠 New identity created
+[05:19:49] 🔄 Retry 3/5 for BSAT in 8.7s
+[05:19:49] 🔄 Identity reset
+[05:19:57] 🧠 New identity created
+[05:19:57] 🔄 Retry 4/5 for BSAT in 16.3s
+[05:19:57] 🔄 Identity reset
+[05:20:14] 🧠 New identity created
+[05:20:14] ❌ BSAT failed after 5 attempts
+[05:20:14] 🔄 Identity reset
+[05:20:14] ❌ BSAT final failure | RuntimeError | HTTP 403
+[05:20:14] [2/326] RSSM
+[05:20:15] 🧠 New identity created
+[05:20:15] 🔄 Retry 1/5 for RSSM in 2.5s
+[05:20:15] 🔄 Identity reset
+[05:20:17] 🧠 New identity created
+[05:20:17] 🔄 Retry 2/5 for RSSM in 4.8s
+[05:20:17] 🔄 Identity reset
+[05:20:22] 🧠 New identity created
+[05:20:22] 🔄 Retry 3/5 for RSSM in 8.5s
+[05:20:22] 🔄 Identity reset
+[05:20:31] 🧠 New identity created
+[05:20:31] 🔄 Retry 4/5 for RSSM in 16.9s
+[05:20:31] 🔄 Identity reset
+[05:20:48] 🧠 New identity created
+[05:20:48] 🔄 Identity reset
+[05:20:48] 🔄 Identity rotated (every 10 requests)
+[05:20:48] ❌ RSSM failed after 5 attempts
+[05:20:48] 🔄 Identity reset
+[05:20:48] ❌ RSSM final failure | RuntimeError | HTTP 403
+[05:20:48] [3/326] GCTA
+[05:20:49] 🧠 New identity created
+[05:20:49] 🔄 Retry 1/5 for GCTA in 2.3s
+[05:20:49] 🔄 Identity reset
+[05:20:51] 🧠 New identity created
+[05:20:51] 🔄 Retry 2/5 for GCTA in 5.0s
+[05:20:51] 🔄 Identity reset
+[05:20:56] 🧠 New identity created
+[05:20:56] 🔄 Retry 3/5 for GCTA in 8.8s
+[05:20:56] 🔄 Identity reset
+[05:21:05] 🧠 New identity created
+[05:21:05] 🔄 Retry 4/5 for GCTA in 16.3s
+[05:21:05] 🔄 Identity reset
+[05:21:21] 🧠 New identity created
+[05:21:21] ❌ GCTA failed after 5 attempts
+[05:21:21] 🔄 Identity reset
+[05:21:21] ❌ GCTA final failure | RuntimeError | HTTP 403
+[05:21:21] [4/326] TOPN
+[05:21:23] 🧠 New identity created
+[05:21:23] 🔄 Retry 1/5 for TOPN in 2.7s
+[05:21:23] 🔄 Identity reset
+[05:21:25] 🧠 New identity created
+[05:21:26] [5/326] MCUS
+[05:21:27] [6/326] SHRL
+[05:21:27] [7/326] UPTP
+[05:21:28] 🔄 Identity reset
+[05:21:28] 🔄 Identity rotated (every 10 requests)
+[05:21:28] 🔄 Retry 1/5 for UPTP in 2.8s
+[05:21:28] 🔄 Identity reset
+[05:21:31] 🧠 New identity created
+[05:21:31] 🔄 Retry 2/5 for UPTP in 4.3s
+[05:21:31] 🔄 Identity reset
+[05:21:35] 🧠 New identity created
+[05:21:35] 🔄 Retry 3/5 for UPTP in 8.8s
+[05:21:35] 🔄 Identity reset
+[05:21:44] 🧠 New identity created
+[05:21:44] 🔄 Retry 4/5 for UPTP in 16.2s
+[05:21:44] 🔄 Identity reset
+[05:22:01] 🧠 New identity created
+[05:22:01] ❌ UPTP failed after 5 attempts
+[05:22:01] 🔄 Identity reset
+[05:22:01] ❌ UPTP final failure | RuntimeError | HTTP 403
+[05:22:01] [8/326] TMMP
+[05:22:01] 🧠 New identity created
+[05:22:01] 🔄 Retry 1/5 for TMMP in 3.0s
+[05:22:01] 🔄 Identity reset
+[05:22:04] 🧠 New identity created
+[05:22:04] 🔄 Retry 2/5 for TMMP in 4.5s
+[05:22:04] 🔄 Identity reset
+[05:22:09] 🧠 New identity created
+[05:22:09] 🔄 Retry 3/5 for TMMP in 8.8s
+[05:22:09] 🔄 Identity reset
+[05:22:18] 🧠 New identity created
+[05:22:18] 🔄 Retry 4/5 for TMMP in 16.0s
+[05:22:18] 🔄 Identity reset
+[05:22:34] 🧠 New identity created
+[05:22:34] ❌ TMMP failed after 5 attempts
+[05:22:34] 🔄 Identity reset
+[05:22:34] ❌ TMMP final failure | RuntimeError | HTTP 403
+[05:22:34] [9/326] DNRP
+[05:22:35] 🧠 New identity created
+[05:22:35] 🔄 Identity reset
+[05:22:35] 🔄 Identity rotated (every 10 requests)
+[05:22:35] 🔄 Retry 1/5 for DNRP in 2.4s
+[05:22:35] 🔄 Identity reset
+[05:22:38] 🧠 New identity created
+[05:22:38] 🔄 Retry 2/5 for DNRP in 4.5s
+[05:22:38] 🔄 Identity reset
+[05:22:42] 🧠 New identity created
+[05:22:42] 🔄 Retry 3/5 for DNRP in 8.1s
+[05:22:42] 🔄 Identity reset
+[05:22:50] 🧠 New identity created
+[05:22:50] 🔄 Retry 4/5 for DNRP in 16.8s
+[05:22:50] 🔄 Identity reset
+[05:23:07] 🧠 New identity created
+[05:23:07] ❌ DNRP failed after 5 attempts
+[05:23:07] 🔄 Identity reset
+[05:23:07] ❌ DNRP final failure | RuntimeError | HTTP 403
+[05:23:07] [10/326] SRLT
+[05:23:09] 🧠 New identity created
+[05:23:09] 🔄 Retry 1/5 for SRLT in 2.3s
+[05:23:09] 🔄 Identity reset
+[05:23:11] 🧠 New identity created
+[05:23:11] 🔄 Retry 2/5 for SRLT in 4.8s
+[05:23:11] 🔄 Identity reset
+[05:23:16] 🧠 New identity created
+[05:23:16] 🔄 Retry 3/5 for SRLT in 8.2s
+[05:23:16] 🔄 Identity reset
+[05:23:24] 🧠 New identity created
+[05:23:24] 🔄 Retry 4/5 for SRLT in 16.7s
+[05:23:24] 🔄 Identity reset
+[05:23:41] 🧠 New identity created
+[05:23:41] ❌ SRLT failed after 5 attempts
+[05:23:41] 🔄 Identity reset
+[05:23:41] ❌ SRLT final failure | RuntimeError | HTTP 403
+[05:23:41] [11/326] RCNS
+[05:23:42] 🧠 New identity created
+[05:23:42] 🔄 Identity reset
+[05:23:42] 🔄 Identity rotated (every 10 requests)
+[05:23:42] 🔄 Retry 1/5 for RCNS in 2.1s
+[05:23:42] 🔄 Identity reset
+[05:23:44] 🧠 New identity created
+[05:23:44] 🔄 Retry 2/5 for RCNS in 5.0s
+[05:23:44] 🔄 Identity reset
+[05:23:49] 🧠 New identity created
+[05:23:49] 🔄 Retry 3/5 for RCNS in 8.2s
+[05:23:49] 🔄 Identity reset
+[05:23:58] 🧠 New identity created
+[05:23:58] 🔄 Retry 4/5 for RCNS in 16.4s
+[05:23:58] 🔄 Identity reset
+[05:24:14] 🧠 New identity created
+[05:24:14] ❌ RCNS failed after 5 attempts
+[05:24:14] ⛔ 5 consecutive failures – cooling down 30s
+[05:24:44] 🔄 Identity reset
+[05:24:44] ❌ RCNS final failure | RuntimeError | HTTP 403
+[05:24:44] [12/326] DCBH
+[05:24:45] 🧠 New identity created
+[05:24:45] 🔄 Retry 1/5 for DCBH in 2.4s
+[05:24:45] 🔄 Identity reset
+[05:24:47] 🧠 New identity created
+[05:24:47] 🔄 Retry 2/5 for DCBH in 4.2s
+[05:24:47] 🔄 Identity reset
+[05:24:51] 🧠 New identity created
+[05:24:51] 🔄 Retry 3/5 for DCBH in 8.9s
+[05:24:51] 🔄 Identity reset
+[05:25:00] 🧠 New identity created
+[05:25:00] 🔄 Retry 4/5 for DCBH in 16.2s
+[05:25:00] 🔄 Identity reset
+[05:25:17] 🧠 New identity created
+[05:25:17] ❌ DCBH failed after 5 attempts
+[05:25:17] 🔄 Identity reset
+[05:25:17] ❌ DCBH final failure | RuntimeError | HTTP 403
+[05:25:17] [13/326] NAGJ
+[05:25:18] 🧠 New identity created
+[05:25:18] 🔄 Identity reset
+[05:25:18] 🔄 Identity rotated (every 10 requests)
+[05:25:18] 🔄 Retry 1/5 for NAGJ in 2.2s
+[05:25:18] 🔄 Identity reset
+[05:25:20] 🧠 New identity created
+[05:25:20] 🔄 Retry 2/5 for NAGJ in 4.3s
+[05:25:20] 🔄 Identity reset
+[05:25:24] 🧠 New identity created
+[05:25:24] 🔄 Retry 3/5 for NAGJ in 8.5s
+[05:25:24] 🔄 Identity reset
+[05:25:33] 🧠 New identity created
+[05:25:33] 🔄 Retry 4/5 for NAGJ in 16.1s
+[05:25:33] 🔄 Identity reset
+[05:25:49] 🧠 New identity created
+[05:25:49] ❌ NAGJ failed after 5 attempts
+[05:25:49] 🔄 Identity reset
+[05:25:49] ❌ NAGJ final failure | RuntimeError | HTTP 403
+[05:25:49] [14/326] JVRC
+[05:25:50] 🧠 New identity created
+[05:25:50] 🔄 Retry 1/5 for JVRC in 3.0s
+[05:25:50] 🔄 Identity reset
+[05:25:53] 🧠 New identity created
+[05:25:53] 🔄 Retry 2/5 for JVRC in 4.2s
+[05:25:53] 🔄 Identity reset
+[05:25:57] 🧠 New identity created
+[05:25:57] 🔄 Retry 3/5 for JVRC in 8.6s
+[05:25:57] 🔄 Identity reset
+[05:26:06] 🧠 New identity created
+[05:26:06] 🔄 Retry 4/5 for JVRC in 16.4s
+[05:26:06] 🔄 Identity reset
+[05:26:23] 🧠 New identity created
+[05:26:23] ❌ JVRC failed after 5 attempts
+[05:26:23] 🔄 Identity reset
+[05:26:23] ❌ JVRC final failure | RuntimeError | HTTP 403
+[05:26:23] [15/326] KRJG
+[05:26:24] 🧠 New identity created
+[05:26:24] 🔄 Identity reset
+[05:26:24] 🔄 Identity rotated (every 10 requests)
+[05:26:24] 🔄 Retry 1/5 for KRJG in 2.1s
+[05:26:24] 🔄 Identity reset
+[05:26:26] 🧠 New identity created
+[05:26:26] 🔄 Retry 2/5 for KRJG in 4.0s
+[05:26:26] 🔄 Identity reset
+[05:26:30] 🧠 New identity created
+[05:26:30] 🔄 Retry 3/5 for KRJG in 8.6s
+[05:26:30] 🔄 Identity reset
+[05:26:39] 🧠 New identity created
+[05:26:39] 🔄 Retry 4/5 for KRJG in 16.0s
+[05:26:39] 🔄 Identity reset
+[05:26:55] 🧠 New identity created
+[05:26:55] [16/326] SRTJ
+[05:26:56] [17/326] CMXM
+[05:26:57] [18/326] STMI
+[05:26:58] [19/326] SLST
+[05:26:59] [20/326] DTCN
+[05:27:00] [21/326] STYN
+[05:27:01] 🔄 Identity reset
+[05:27:01] 🔄 Identity rotated (every 10 requests)
+[05:27:01] 🔄 Retry 1/5 for STYN in 2.4s
+[05:27:01] 🔄 Identity reset
+[05:27:03] 🧠 New identity created
+[05:27:03] 🔄 Retry 2/5 for STYN in 4.2s
+[05:27:03] 🔄 Identity reset
+[05:27:07] 🧠 New identity created
+[05:27:07] 🔄 Retry 3/5 for STYN in 8.8s
+[05:27:07] 🔄 Identity reset
+[05:27:16] 🧠 New identity created
+[05:27:16] 🔄 Retry 4/5 for STYN in 16.3s
+[05:27:16] 🔄 Identity reset
+[05:27:33] 🧠 New identity created
+[05:27:33] ❌ STYN failed after 5 attempts
+[05:27:33] 🔄 Identity reset
+[05:27:33] ❌ STYN final failure | RuntimeError | HTTP 403
+[05:27:33] [22/326] SZVR
+[05:27:33] 🧠 New identity created
+[05:27:33] 🔄 Retry 1/5 for SZVR in 2.4s
+[05:27:33] 🔄 Identity reset
+[05:27:36] 🧠 New identity created
+[05:27:36] 🔄 Retry 2/5 for SZVR in 4.3s
+[05:27:36] 🔄 Identity reset
+[05:27:40] 🧠 New identity created
+[05:27:40] 🔄 Retry 3/5 for SZVR in 8.6s
+[05:27:40] 🔄 Identity reset
+[05:27:49] 🧠 New identity created
+[05:27:50] [23/326] SRKO
+[05:27:51] [24/326] JTGT
+[05:27:52] 🔄 Identity reset
+[05:27:52] 🔄 Identity rotated (every 10 requests)
+[05:27:52] 🔄 Retry 1/5 for JTGT in 2.3s
+[05:27:52] 🔄 Identity reset
+[05:27:54] 🧠 New identity created
+[05:27:54] 🔄 Retry 2/5 for JTGT in 4.7s
+[05:27:54] 🔄 Identity reset
+[05:27:59] 🧠 New identity created
+[05:27:59] 🔄 Retry 3/5 for JTGT in 8.4s
+[05:27:59] 🔄 Identity reset
+[05:28:08] 🧠 New identity created
+[05:28:08] [25/326] SVFD
+[05:28:09] [26/326] SISD
+[05:28:10] [27/326] ABDD
+[05:28:11] [28/326] DRCA
+[05:28:12] [29/326] AVCS
+[05:28:13] [30/326] MVKH
+[05:28:14] [31/326] ACPR
+[05:28:15] 🔄 Identity reset
+[05:28:15] 🔄 Identity rotated (every 10 requests)
+[05:28:15] 🔄 Retry 1/5 for ACPR in 2.8s
+[05:28:15] 🔄 Identity reset
+[05:28:18] 🧠 New identity created
+[05:28:18] 🔄 Retry 2/5 for ACPR in 4.9s
+[05:28:18] 🔄 Identity reset
+[05:28:23] 🧠 New identity created
+[05:28:23] 🔄 Retry 3/5 for ACPR in 8.2s
+[05:28:23] 🔄 Identity reset
+[05:28:31] 🧠 New identity created
+[05:28:31] 🔄 Retry 4/5 for ACPR in 16.3s
+[05:28:31] 🔄 Identity reset
+[05:28:47] 🧠 New identity created
+[05:28:47] ❌ ACPR failed after 5 attempts
+[05:28:47] 🔄 Identity reset
+[05:28:47] ❌ ACPR final failure | RuntimeError | HTTP 403
+[05:28:47] [32/326] STIP
+[05:28:48] 🧠 New identity created
+[05:28:48] [33/326] MTRA
+[05:28:49] [34/326] RMKH
+[05:28:50] [35/326] NKRL
+[05:28:51] [36/326] PCWN
+[05:28:52] [37/326] BLMT
+[05:28:53] 🔄 Identity reset
+[05:28:53] 🔄 Identity rotated (every 10 requests)
+[05:28:53] [38/326] GDPG
+[05:28:54] [39/326] SRMX
+[05:28:55] [40/326] JACP
+[05:28:57] [41/326] CPSH
+[05:28:57] [42/326] MCCD
+[05:28:59] [43/326] ECGH
+[05:29:00] [44/326] MKCK
+[05:29:01] [45/326] SRMM
+[05:29:02] [46/326] SKYR
+[05:29:03] [47/326] PCKC
+[05:29:04] 🔄 Identity reset
+[05:29:04] 🔄 Identity rotated (every 10 requests)
+[05:29:04] 🔄 Retry 1/5 for PCKC in 2.3s
+[05:29:04] 🔄 Identity reset
+[05:29:06] 🧠 New identity created
+[05:29:06] [48/326] JCMA
+[05:29:08] [49/326] BSMP
+[05:29:09] [50/326] VSPA
+[05:29:10] [51/326] DJYA
+[05:29:10] [52/326] DIMP
+[05:29:11] [53/326] FXDR
+[05:29:12] [54/326] SSRC
+[05:29:13] [55/326] STHP
+[05:29:14] [56/326] CPPD
+[05:29:14] 🔄 Identity reset
+[05:29:15] 🔄 Identity rotated (every 10 requests)
+[05:29:15] [57/326] FCLK
+[05:29:16] [58/326] SCPP
+[05:29:17] [59/326] DCMJ
+[05:29:17] [60/326] RCCR
+[05:29:18] [61/326] INMT
+[05:29:19] [62/326] LXTK
+[05:29:20] [63/326] SRYK
+[05:29:21] [64/326] SGDK
+[05:29:22] [65/326] PPKA
+[05:29:23] [66/326] SPKA
+[05:29:23] 🔄 Identity reset
+[05:29:23] 🔄 Identity rotated (every 10 requests)
+[05:29:24] [67/326] CGHH
+[05:29:24] [68/326] DCJN
+[05:29:25] [69/326] SRKV
+[05:29:26] [70/326] SAJC
+[05:29:27] [71/326] SUSR
+[05:29:28] [72/326] STYG
+[05:29:29] [73/326] NTKP
+[05:29:30] [74/326] AKTG
+[05:29:31] [75/326] CGCM
+[05:29:32] [76/326] TULC
+[05:29:32] 🔄 Identity reset
+[05:29:32] 🔄 Identity rotated (every 10 requests)
+[05:29:33] [77/326] NYYZ
+[05:29:34] [78/326] NYBW
+[05:29:35] [79/326] MACB
+[05:29:36] [80/326] SLVT
+[05:29:37] [81/326] SANA
+[05:29:38] [82/326] ACMR
+[05:29:39] [83/326] CPKN
+[05:29:40] [84/326] DLGK
+[05:29:41] [85/326] CWCK
+[05:29:42] [86/326] FDDH
+[05:29:43] 🔄 Identity reset
+[05:29:43] 🔄 Identity rotated (every 10 requests)
+[05:29:43] [87/326] MMMD
+[05:29:44] [88/326] CMEH
+[05:29:45] [89/326] GGGV
+[05:29:46] [90/326] SPJL
+[05:29:47] [91/326] RCCD
+[05:29:48] [92/326] STTZ
+[05:29:49] [93/326] BTCF
+[05:29:50] [94/326] TSTZ
+[05:29:51] [95/326] IPMM
+[05:29:52] [96/326] PMPW
+[05:29:52] 🔄 Identity reset
+[05:29:52] 🔄 Identity rotated (every 10 requests)
+[05:29:53] [97/326] PCMZ
+[05:29:54] [98/326] ESEM
+[05:29:55] [99/326] PIPO
+[05:29:56] [100/326] MATK
+[05:29:57] [101/326] PGHM
+[05:29:58] [102/326] CTSR
+[05:29:59] [103/326] CYKR
+[05:30:00] [104/326] MSCM
+[05:30:01] [105/326] RFNP
+[05:30:02] [106/326] PDCP
+[05:30:03] 🔄 Identity reset
+[05:30:03] 🔄 Identity rotated (every 10 requests)
+[05:30:03] [107/326] NPSE
+[05:30:05] [108/326] MKML
+[05:30:05] [109/326] FTDP
+[05:30:07] [110/326] MMXA
+[05:30:08] [111/326] CEPO
+[05:30:08] [112/326] CMVP
+[05:30:09] [113/326] SGTH
+[05:30:10] [114/326] SAYN
+[05:30:11] [115/326] URVS
+[05:30:12] [116/326] VJTN
+[05:30:13] 🔄 Identity reset
+[05:30:13] 🔄 Identity rotated (every 10 requests)
+[05:30:13] [117/326] BBYK
+[05:30:14] [118/326] SHBO
+[05:30:16] [119/326] VCMR
+[05:30:17] [120/326] MACT
+[05:30:18] [121/326] JMNP
+[05:30:19] [122/326] VICS
+[05:30:20] [123/326] VCDA
+[05:30:22] [124/326] GCMM
+[05:30:23] [125/326] INVS
+[05:30:23] [126/326] SCGM
+[05:30:24] 🔄 Identity reset
+[05:30:24] 🔄 Identity rotated (every 10 requests)
+[05:30:24] [127/326] PCDA
+[05:30:25] [128/326] KDCT
+[05:30:26] [129/326] JACS
+[05:30:27] [130/326] GMMC
+[05:30:29] [131/326] AICM
+[05:30:29] [132/326] TJCM
+[05:30:31] [133/326] RMTI
+[05:30:33] [134/326] SHAC
+[05:30:34] [135/326] APJC
+[05:30:35] [136/326] GCTG
+[05:30:35] 🔄 Identity reset
+[05:30:35] 🔄 Identity rotated (every 10 requests)
+[05:30:36] [137/326] SSMC
+[05:30:37] [138/326] THRM
+[05:30:37] [139/326] RBCT
+[05:30:38] [140/326] DIKT
+[05:30:39] [141/326] MIDL
+[05:30:41] [142/326] VCSN
+[05:30:42] [143/326] SKTG
+[05:30:42] [144/326] SMWC
+[05:30:43] [145/326] MNKH
+[05:30:44] [146/326] PIAT
+[05:30:45] 🔄 Identity reset
+[05:30:45] 🔄 Identity rotated (every 10 requests)
+[05:30:45] [147/326] LTTP
+[05:30:46] [148/326] PTPU
+[05:30:47] [149/326] ACMG
+[05:30:49] [150/326] SHMM
+[05:30:50] [151/326] MCMN
+[05:30:50] [152/326] GLDC
+[05:30:51] [153/326] HOUT
+[05:30:52] [154/326] SVRP
+[05:30:53] [155/326] PVDN
+[05:30:54] [156/326] SCPY
+[05:30:55] 🔄 Identity reset
+[05:30:55] 🔄 Identity rotated (every 10 requests)
+[05:30:55] [157/326] DTPY
+[05:30:56] [158/326] GKCS
+[05:30:57] [159/326] NCAM
+[05:30:58] [160/326] BSRM
+[05:30:59] [161/326] RCLC
+[05:31:00] [162/326] SKKD
+[05:31:01] [163/326] ACHU
+[05:31:01] [164/326] RSCF
+[05:31:02] [165/326] IMSH
+[05:31:03] [166/326] MACX
+[05:31:04] 🔄 Identity reset
+[05:31:04] 🔄 Identity rotated (every 10 requests)
+[05:31:04] [167/326] HMMW
+[05:31:05] [168/326] JTCP
+[05:31:06] [169/326] SREN
+[05:31:07] [170/326] PJRR
+[05:31:08] [171/326] INAC
+[05:31:09] [172/326] BMCA
+[05:31:10] [173/326] SHCB
+[05:31:10] [174/326] GABA
+[05:31:12] [175/326] SBCT
+[05:31:12] [176/326] GCMA
+[05:31:13] 🔄 Identity reset
+[05:31:13] 🔄 Identity rotated (every 10 requests)
+[05:31:13] [177/326] MYTK
+[05:31:14] [178/326] INZS
+[05:31:15] [179/326] RMIK
+[05:31:16] [180/326] NYCH
+[05:31:17] [181/326] RAVE
+[05:31:18] [182/326] PSXM
+[05:31:19] [183/326] MCGP
+[05:31:20] [184/326] PDDK
+[05:31:21] [185/326] SPCK
+[05:31:22] [186/326] MCRL
+[05:31:23] 🔄 Identity reset
+[05:31:23] 🔄 Identity rotated (every 10 requests)
+[05:31:24] [187/326] MHKT
+[05:31:25] [188/326] ANRR
+[05:31:26] [189/326] SAPK
+[05:31:27] [190/326] NCUK
+[05:31:28] [191/326] JUGA
+[05:31:28] [192/326] DBSC
+[05:31:29] [193/326] LALK
+[05:31:30] [194/326] GUCK
+[05:31:31] [195/326] STSG
+[05:31:32] [196/326] PPPZ
+[05:31:33] 🔄 Identity reset
+[05:31:33] 🔄 Identity rotated (every 10 requests)
+[05:31:33] [197/326] CNCY
+[05:31:34] [198/326] MTAR
+[05:31:35] [199/326] VNKD
+[05:31:35] [200/326] KMAJ
+[05:31:36] [201/326] ACXK
+[05:31:37] [202/326] UTKC
+[05:31:38] [203/326] PBLK
+[05:31:39] [204/326] ACBX
+[05:31:41] [205/326] PTGM
+[05:31:42] [206/326] BTDA
+[05:31:42] 🔄 Identity reset
+[05:31:42] 🔄 Identity rotated (every 10 requests)
+[05:31:43] [207/326] PJMB
+[05:31:44] [208/326] TPDA
+[05:31:44] [209/326] AMOE
+[05:31:45] [210/326] PRHT
+[05:31:46] [211/326] PRTA
+[05:31:48] [212/326] STAM
+[05:31:49] [213/326] MSAA
+[05:31:50] [214/326] SDLU
+[05:31:51] [215/326] RCHH
+[05:31:52] [216/326] KANT
+[05:31:52] 🔄 Identity reset
+[05:31:52] 🔄 Identity rotated (every 10 requests)
+[05:31:53] [217/326] FCRT
+[05:31:54] [218/326] DNKM
+[05:31:55] [219/326] RYCP
+[05:31:57] [220/326] MYRP
+[05:31:57] [221/326] PPAK
+[05:31:58] [222/326] NVPK
+[05:31:59] [223/326] PRMC
+[05:32:00] [224/326] JBCS
+[05:32:01] [225/326] GXCK
+[05:32:02] [226/326] USKO
+[05:32:02] 🔄 Identity reset
+[05:32:02] 🔄 Identity rotated (every 10 requests)
+[05:32:03] [227/326] GTEM
+[05:32:04] [228/326] SMBU
+[05:32:05] [229/326] VETC
+[05:32:05] [230/326] LCDA
+[05:32:06] [231/326] MTVT
+[05:32:07] [232/326] PYCP
+[05:32:09] [233/326] PNSC
+[05:32:10] [234/326] PPCC
+[05:32:11] [235/326] TGRT
+[05:32:12] [236/326] JYOT
+[05:32:12] 🔄 Identity reset
+[05:32:12] 🔄 Identity rotated (every 10 requests)
+[05:32:13] [237/326] SRCZ
+[05:32:14] [238/326] SJTE
+[05:32:14] [239/326] DESC
+[05:32:15] [240/326] JHVN
+[05:32:17] [241/326] IPSG
+[05:32:18] [242/326] IPCM
+[05:32:19] [243/326] PDRS
+[05:32:20] [244/326] ANCV
+[05:32:21] [245/326] CMVV
+[05:32:22] [246/326] SHYP
+[05:32:23] 🔄 Identity reset
+[05:32:23] 🔄 Identity rotated (every 10 requests)
+[05:32:23] [247/326] DNCS
+[05:32:24] [248/326] GAJK
+[05:32:25] [249/326] AKTN
+[05:32:26] [250/326] KAYA
+[05:32:27] [251/326] SBRC
+[05:32:28] [252/326] CHTP
+[05:32:30] [253/326] SHRT
+[05:32:31] [254/326] BCKU
+[05:32:31] [255/326] FCPS
+[05:32:32] [256/326] ARDD
+[05:32:33] 🔄 Identity reset
+[05:32:33] 🔄 Identity rotated (every 10 requests)
+[05:32:34] [257/326] CPCM
+[05:32:35] [258/326] CGSM
+[05:32:36] [259/326] PSMP
+[05:32:37] [260/326] SDAL
+[05:32:38] [261/326] RTNB
+[05:32:39] [262/326] LMCR
+[05:32:40] [263/326] CIMA
+[05:32:41] [264/326] RNAS
+[05:32:42] [265/326] LITH
+[05:32:43] [266/326] PBOX
+[05:32:43] 🔄 Identity reset
+[05:32:43] 🔄 Identity rotated (every 10 requests)
+[05:32:44] [267/326] FRTS
+[05:32:45] [268/326] RKIC
+[05:32:45] [269/326] PTAI
+[05:32:46] [270/326] GCIC
+[05:32:47] [271/326] FNAS
+[05:32:48] [272/326] SCAR
+[05:32:49] [273/326] MTCA
+[05:32:50] [274/326] SCTS
+[05:32:51] [275/326] SYCS
+[05:32:52] [276/326] RDMS
+[05:32:53] 🔄 Identity reset
+[05:32:53] 🔄 Identity rotated (every 10 requests)
+[05:32:53] [277/326] KAMP
+[05:32:54] [278/326] ERSD
+[05:32:55] [279/326] MJMJ
+[05:32:56] [280/326] SRCJ
+[05:32:57] [281/326] SCXE
+[05:32:58] [282/326] SVFR
+[05:33:00] [283/326] BHCS
+[05:33:01] [284/326] IMCC
+[05:33:02] [285/326] PCBO
+[05:33:03] [286/326] PRVN
+[05:33:03] 🔄 Identity reset
+[05:33:04] 🔄 Identity rotated (every 10 requests)
+[05:33:04] [287/326] AUPM
+[05:33:05] [288/326] INBW
+[05:33:06] [289/326] SVCW
+[05:33:07] [290/326] RKCF
+[05:33:07] [291/326] UVBH
+[05:33:08] [292/326] DNCY
+[05:33:09] [293/326] ABCN
+[05:33:10] [294/326] PRUR
+[05:33:11] [295/326] PFMR
+[05:33:12] [296/326] RKCN
+[05:33:12] 🔄 Identity reset
+[05:33:12] 🔄 Identity rotated (every 10 requests)
+[05:33:13] [297/326] CFEA
+[05:33:14] [298/326] SDBG
+[05:33:15] [299/326] SNAR
+[05:33:16] [300/326] YISI
+[05:33:16] [301/326] JCFF
+[05:33:17] [302/326] VTRK
+[05:33:18] [303/326] PCLZ
+[05:33:19] [304/326] DIMY
+[05:33:20] [305/326] BBTS
+[05:33:21] [306/326] GATH
+[05:33:22] 🔄 Identity reset
+[05:33:22] 🔄 Identity rotated (every 10 requests)
+[05:33:22] [307/326] GTMN
+[05:33:23] [308/326] VTMH
+[05:33:24] [309/326] CCKP
+[05:33:25] [310/326] GPKA
+[05:33:26] [311/326] MHCL
+[05:33:26] [312/326] ATCL
+[05:33:27] [313/326] SBCK
+[05:33:28] [314/326] AMMR
+[05:33:29] [315/326] MADC
+[05:33:30] [316/326] TMMA
+[05:33:31] 🔄 Identity reset
+[05:33:31] 🔄 Identity rotated (every 10 requests)
+[05:33:32] [317/326] CACC
+[05:33:33] [318/326] CHAL
+[05:33:34] [319/326] DURG
+[05:33:35] [320/326] GMKU
+[05:33:36] [321/326] GECA
+[05:33:37] [322/326] KYRR
+[05:33:38] [323/326] KSDE
+[05:33:39] [324/326] LMCI
+[05:33:40] [325/326] NKCP
+[05:33:40] [326/326] BGTC
+[05:33:41] 🔄 Identity reset
+[05:33:41] 🔄 Identity rotated (every 10 requests)
+[05:33:42] 🔁 RETRY ROUND 1 | Remaining: 13
+[05:33:42] [RETRY-1] RSSM
+[05:33:44] [RETRY-1] SRLT
+[05:33:47] [RETRY-1] RCNS
+[05:33:50] [RETRY-1] STYN
+[05:33:53] [RETRY-1] TMMP
+[05:33:57] [RETRY-1] DCBH
+[05:33:59] [RETRY-1] JVRC
+[05:34:02] [RETRY-1] BSAT
+[05:34:06] [RETRY-1] ACPR
+[05:34:08] [RETRY-1] GCTA
+[05:34:10] 🔄 Identity reset
+[05:34:10] 🔄 Identity rotated (every 10 requests)
+[05:34:11] [RETRY-1] NAGJ
+[05:34:14] [RETRY-1] UPTP
+[05:34:17] [RETRY-1] DNRP
+[05:34:20] 🧹 Deduping shows
+[05:34:20] ✅ DONE | Shows=510 | Movies=49
