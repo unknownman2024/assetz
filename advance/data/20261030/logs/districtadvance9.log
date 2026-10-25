@@ -54,3 +54,32 @@
 [09:51:17] ✅ DONE | Shows=28 | Movies=3
 [09:51:17] 📄 Detailed: advance/data/20261030/detailed9.json
 [09:51:17] 📄 Summary: advance/data/20261030/movie_summary9.json
+[16:42:18] 🚀 DISTRICT → BMS9 CONVERTER STARTED
+[16:42:18] 📅 DATE_CODE: 20261030
+[16:42:18] 📅 Date: 2026-10-30
+[16:42:18] 🚫 Worker logic: DISABLED
+[16:42:18] 🔑 Venue matching: ID ONLY
+[16:42:18] 🚫 alldistrictvenues.json: NOT USED
+[16:42:18] 🚫 Venue-name matching: NOT USED
+[16:42:18] 📍 Selected venue records: 756
+[16:42:18] 🎯 Selected venue IDs: 756
+[16:42:18] 📡 Fetching Detailed JSON:
+[16:42:18]    https://districtdata2026.pages.dev/advance/2026-10-30_Detailed.json
+[16:42:18] ✅ Source loaded
+[16:42:18]    Source date: 2026-10-30
+[16:42:18]    Last updated: 04:39 PM, 25 October 2026
+[16:42:18]    Movie keys: 7
+[16:42:18] 🎬 Source movie keys: 7
+[16:42:18] 🎟️ Selected-venue show rows: 56
+[16:42:18] 🚫 Non-selected show rows ignored: 13
+[16:42:18] ℹ️ Non-selected venue IDs encountered: 4
+[16:42:18]    ⏭️ Source venue ID not selected: 14388
+[16:42:18]    ⏭️ Source venue ID not selected: 1099143
+[16:42:18]    ⏭️ Source venue ID not selected: 1018904
+[16:42:18]    ⏭️ Source venue ID not selected: 2699
+[16:42:18] 📦 Previous shows: 28
+[16:42:18] 🆕 Fresh shows: 56
+[16:42:18] 📦 Final shows: 56
+[16:42:18] ✅ DONE | Shows=56 | Movies=3
+[16:42:18] 📄 Detailed: advance/data/20261030/detailed9.json
+[16:42:18] 📄 Summary: advance/data/20261030/movie_summary9.json
