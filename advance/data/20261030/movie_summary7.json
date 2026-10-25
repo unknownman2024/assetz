@@ -1,11 +1,11 @@
 {
   "Jailer 2 [2D | Tamil]": {
-    "shows": 4,
+    "shows": 8,
     "gross": 0.0,
     "sold": 0,
-    "totalSeats": 2036,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 4436,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 0.0,
@@ -18,6 +18,18 @@
         "gross": 0.0,
         "sold": 0,
         "totalSeats": 2036,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
+        "city": "Cumbum",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 2400,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
@@ -34,31 +46,42 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.0
+      },
+      {
+        "chain": "Thambis Theatre A/C Dolby Atmos",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 2400,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
       }
     ]
   },
   "BTS World Tour Arirang in Sao Paulo: Live Viewing (Delayed) [2D | Korean]": {
     "shows": 1,
-    "gross": 42000.0,
-    "sold": 42,
-    "totalSeats": 211,
+    "gross": 36000.0,
+    "sold": 36,
+    "totalSeats": 199,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 19.91,
+    "occupancy": 18.09,
     "details": [
       {
         "city": "Rajkot",
         "state": "Gujarat",
         "venues": 1,
         "shows": 1,
-        "gross": 42000.0,
-        "sold": 42,
-        "totalSeats": 211,
+        "gross": 36000.0,
+        "sold": 36,
+        "totalSeats": 199,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 19.91
+        "occupancy": 18.09
       }
     ],
     "Chain_details": [
@@ -66,12 +89,12 @@
         "chain": "Cinepolis",
         "venues": 1,
         "shows": 1,
-        "gross": 42000.0,
-        "sold": 42,
-        "totalSeats": 211,
+        "gross": 36000.0,
+        "sold": 36,
+        "totalSeats": 199,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 19.91
+        "occupancy": 18.09
       }
     ]
   }
