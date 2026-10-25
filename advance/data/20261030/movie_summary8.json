@@ -1,39 +1,61 @@
 {
   "Jailer 2 [2D | Tamil]": {
-    "shows": 4,
-    "gross": 7980.0,
-    "sold": 42,
-    "totalSeats": 1144,
-    "venues": 1,
+    "shows": 12,
+    "gross": 12450.0,
+    "sold": 83,
+    "totalSeats": 3488,
+    "venues": 3,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 3.67,
+    "occupancy": 2.38,
     "details": [
       {
         "city": "Madurai",
         "state": "Tamil Nadu",
-        "venues": 1,
-        "shows": 4,
-        "gross": 7980.0,
-        "sold": 42,
-        "totalSeats": 1144,
+        "venues": 3,
+        "shows": 12,
+        "gross": 12450.0,
+        "sold": 83,
+        "totalSeats": 3488,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 3.67
+        "occupancy": 2.38
       }
     ],
     "Chain_details": [
       {
+        "chain": "Ganesh Theatre: Madurai",
+        "venues": 1,
+        "shows": 4,
+        "gross": 12000.0,
+        "sold": 80,
+        "totalSeats": 1896,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.22
+      },
+      {
+        "chain": "Ritzy Cinemas",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0.0,
+        "sold": 0,
+        "totalSeats": 448,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.0
+      },
+      {
         "chain": "Midlaand Cinemas",
         "venues": 1,
         "shows": 4,
-        "gross": 7980.0,
-        "sold": 42,
+        "gross": 450.0,
+        "sold": 3,
         "totalSeats": 1144,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 3.67
+        "occupancy": 0.26
       }
     ]
   }
