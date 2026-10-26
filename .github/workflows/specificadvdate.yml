@@ -11,42 +11,44 @@ permissions:
 
 jobs:
 
-# =====================================================
-# 1️⃣ Decide DATE OFFSET + FREEZE DATE_CODE
-# =====================================================
+  # =====================================================
+  # 1️⃣ Decide DATE OFFSET + FREEZE DATE_CODE
+  # =====================================================
   decide-day:
     runs-on: ubuntu-latest
     outputs:
       days_ahead: ${{ steps.set.outputs.days_ahead }}
-      date_code:  ${{ steps.set.outputs.date_code }}
+      date_code: ${{ steps.set.outputs.date_code }}
 
     steps:
       - name: Decide tracking day (FREEZE)
         id: set
         run: |
+          set -e
+
           TARGET="2026-11-05"
           TODAY=$(TZ=Asia/Kolkata date +%Y-%m-%d)
 
           DAYS_AHEAD=$(( ( $(date -d "$TARGET" +%s) - $(date -d "$TODAY" +%s) ) / 86400 ))
 
-          if [ $DAYS_AHEAD -lt 0 ]; then
+          if [ "$DAYS_AHEAD" -lt 0 ]; then
             DAYS_AHEAD=0
           fi
 
           DATE_CODE="20261105"
 
-          echo "📅 Target date  : $TARGET"
-          echo "📆 Today (IST)  : $TODAY"
-          echo "⏳ Days ahead   : $DAYS_AHEAD"
-          echo "🔒 DATE_CODE    : $DATE_CODE"
+          echo "Target date  : $TARGET"
+          echo "Today (IST)  : $TODAY"
+          echo "Days ahead   : $DAYS_AHEAD"
+          echo "DATE_CODE    : $DATE_CODE"
 
-          echo "days_ahead=$DAYS_AHEAD" >> $GITHUB_OUTPUT
-          echo "date_code=$DATE_CODE" >> $GITHUB_OUTPUT
+          echo "days_ahead=$DAYS_AHEAD" >> "$GITHUB_OUTPUT"
+          echo "date_code=$DATE_CODE" >> "$GITHUB_OUTPUT"
 
 
-# =====================================================
-# 2️⃣ Run ALL shards in parallel (1–9)
-# =====================================================
+  # =====================================================
+  # 2️⃣ Run ALL shards in parallel (1–9)
+  # =====================================================
   shards:
     name: Shard ${{ matrix.shard }}
     needs: decide-day
@@ -56,10 +58,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shard: [1,2,3,4,5,6,7,8,9]
+        shard: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
     steps:
-
       - name: 🧾 Checkout repo
         uses: actions/checkout@v4
         with:
@@ -68,7 +69,7 @@ jobs:
 
       - name: 🔄 Ensure latest main
         run: |
-          git fetch origin
+          git fetch origin main
           git reset --hard origin/main
 
       - name: 🐍 Setup Python
@@ -86,35 +87,63 @@ jobs:
           python bmsrotate${{ matrix.shard }}.py
         env:
           DAYS_AHEAD: ${{ needs.decide-day.outputs.days_ahead }}
-          DATE_CODE:  ${{ needs.decide-day.outputs.date_code }}
+          DATE_CODE: ${{ needs.decide-day.outputs.date_code }}
           WORKER_UA: ${{ secrets.WORKER_UA }}
           WORKER_KEY: ${{ secrets.WORKER_KEY }}
           GITLAB_PROJECT_ID: ${{ secrets.GITLAB_PROJECT_ID }}
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
-    
+
       - name: 💾 Commit shard output
+        if: always()
         run: |
+          set -e
+
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-          git add advance/data/${{ needs.decide-day.outputs.date_code }}/
-          git commit -m "Shard ${{ matrix.shard }} data (${{ needs.decide-day.outputs.date_code }})" || exit 0
+          git add -A -- advance/data/${DATE_CODE}/
+
+          if git diff --cached --quiet; then
+            echo "No shard output changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Shard ${SHARD} data (${DATE_CODE})"
 
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main || true
-            git push origin main && exit 0
+            git fetch origin main
+
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "Shard output pushed successfully."
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              git reset --hard origin/main
+              echo "Rebase failed; retrying."
+            fi
+
             sleep 4
           done
 
-          git push --force-with-lease origin main || true
+          echo "Could not push shard output after retries."
+          exit 1
+        env:
+          DATE_CODE: ${{ needs.decide-day.outputs.date_code }}
+          SHARD: ${{ matrix.shard }}
 
 
-# =====================================================
-# 3️⃣ Combine shards
-# =====================================================
+  # =====================================================
+  # 3️⃣ Combine shards even if one or more shards fail
+  # =====================================================
   combine:
-    name: Combine all shards (Safe)
+    name: Combine all shards (Always Run)
     needs: [decide-day, shards]
+
+    # Run after shard failures too, but only if date setup succeeded.
+    if: ${{ always() && needs.decide-day.result == 'success' }}
+
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -123,7 +152,6 @@ jobs:
       cancel-in-progress: false
 
     steps:
-
       - name: 🧾 Checkout repo
         uses: actions/checkout@v4
         with:
@@ -134,6 +162,24 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytz
+
+      - name: 📊 Report shard results
+        env:
+          SHARDS_RESULT: ${{ needs.shards.result }}
+        run: |
+          echo "Shard matrix result: ${SHARDS_RESULT}"
+
+          if [ "$SHARDS_RESULT" != "success" ]; then
+            echo "WARNING: One or more shards failed or were cancelled."
+            echo "Continuing to combine available shard output."
+          else
+            echo "All shards completed successfully."
+          fi
 
       - name: 🔁 Safe combine + push (retry loop)
         env:
@@ -147,34 +193,33 @@ jobs:
           MAX_TRIES=6
           TRY=1
 
-          while [ $TRY -le $MAX_TRIES ]; do
-
-            echo "🔁 Combine attempt $TRY / $MAX_TRIES"
+          while [ "$TRY" -le "$MAX_TRIES" ]; do
+            echo "Combine attempt $TRY / $MAX_TRIES"
 
             git fetch origin main
             git reset --hard origin/main
 
-            pip install pytz
+            # Combine whatever shard output is available.
             python combine_shards_rotate.py
 
-            git add advance/data/${DATE_CODE}/
+            git add -A -- "advance/data/${DATE_CODE}/"
 
             if git diff --cached --quiet; then
-              echo "✅ No changes after combine"
+              echo "No changes after combine."
               exit 0
             fi
 
             git commit -m "Final combined BMS data (${DATE_CODE})"
 
-            if git push origin main; then
-              echo "✅ Combine push successful"
+            if git push origin HEAD:main; then
+              echo "Combine push successful."
               exit 0
             fi
 
-            echo "⚠ Push failed — main moved. Retrying..."
-            TRY=$((TRY+1))
+            echo "Push failed or main moved; retrying."
+            TRY=$((TRY + 1))
             sleep 5
           done
 
-          echo "❌ Combine failed after $MAX_TRIES attempts"
+          echo "Combine push failed after ${MAX_TRIES} attempts."
           exit 1
