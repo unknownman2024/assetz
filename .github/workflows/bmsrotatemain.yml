@@ -1,0 +1,264 @@
+name: BMS Advance Tracker (2,3,4,5)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # IST window mapped in UTC (every 2 hours)
+    - cron: "0 21-23/2,0-17/2 * * *"
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write
+
+jobs:
+
+# =====================================================
+# 1. DECIDE DATE OFFSET + FREEZE DATE_CODE
+# =====================================================
+  decide-day:
+    runs-on: ubuntu-latest
+    outputs:
+      days_ahead: ${{ steps.set.outputs.days_ahead }}
+      date_code: ${{ steps.set.outputs.date_code }}
+
+    steps:
+      - name: Decide tracking day (FREEZE)
+        id: set
+        run: |
+          set -euo pipefail
+
+          RUN_INDEX=$(date -u +%H)
+
+          ARR=(2 3 4 2 5 3 4)
+          LEN=${#ARR[@]}
+          IDX=$((RUN_INDEX % LEN))
+          DAYS_AHEAD=${ARR[$IDX]}
+
+          DATE_CODE=$(TZ=Asia/Kolkata date -d "+${DAYS_AHEAD} day" +%Y%m%d)
+
+          echo "Run index  : $RUN_INDEX"
+          echo "Day offset : +$DAYS_AHEAD"
+          echo "DATE_CODE  : $DATE_CODE"
+
+          echo "days_ahead=$DAYS_AHEAD" >> "$GITHUB_OUTPUT"
+          echo "date_code=$DATE_CODE" >> "$GITHUB_OUTPUT"
+
+
+# =====================================================
+# 2. RUN ALL SHARDS IN PARALLEL (1-9)
+# =====================================================
+  shards:
+    name: Shard ${{ matrix.shard }}
+    needs: decide-day
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1,2,3,4,5,6,7,8,9]
+
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Ensure latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install cloudscraper aiohttp pytz selenium webdriver-manager
+
+      - name: Run shard scraper
+        run: |
+          python bmsrotate${{ matrix.shard }}.py
+        env:
+          DAYS_AHEAD: ${{ needs.decide-day.outputs.days_ahead }}
+          DATE_CODE: ${{ needs.decide-day.outputs.date_code }}
+          WORKER_UA: ${{ secrets.WORKER_UA }}
+          WORKER_KEY: ${{ secrets.WORKER_KEY }}
+          GITLAB_PROJECT_ID: ${{ secrets.GITLAB_PROJECT_ID }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+
+      - name: Commit shard output
+        if: always()
+        run: |
+          set +e
+
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          DATE_CODE="${{ needs.decide-day.outputs.date_code }}"
+
+          if [ ! -d "advance/data/${DATE_CODE}" ]; then
+            echo "No output directory for this shard."
+            exit 0
+          fi
+
+          git add "advance/data/${DATE_CODE}/"
+
+          if git diff --cached --quiet; then
+            echo "No shard changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Shard ${{ matrix.shard }} data (${DATE_CODE})" || exit 0
+
+          for i in 1 2 3 4 5 6; do
+            git pull --rebase origin main || {
+              git rebase --abort
+              git fetch origin main
+              git reset --hard origin/main
+              echo "Rebase conflict; retrying."
+              sleep 4
+              continue
+            }
+
+            git push origin HEAD:main && exit 0
+
+            echo "Retry push $i..."
+            sleep 5
+          done
+
+          echo "Shard push failed after retries."
+          exit 1
+
+
+# =====================================================
+# 3. COMBINE SHARDS EVEN IF ANY SHARD FAILS
+# =====================================================
+  combine:
+    name: Combine all shards (Always Run)
+    needs: [decide-day, shards]
+
+    # IMPORTANT:
+    # Run even if shards fail, but never if date decision failed.
+    if: ${{ always() && needs.decide-day.result == 'success' }}
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    concurrency:
+      group: bms-adv-rotating-combiner
+      cancel-in-progress: false
+
+    steps:
+
+      - name: Checkout latest repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Safe combine + retry push
+        env:
+          DATE_CODE: ${{ needs.decide-day.outputs.date_code }}
+          SHARDS_RESULT: ${{ needs.shards.result }}
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          echo "===================================="
+          echo "DATE_CODE     : $DATE_CODE"
+          echo "SHARDS RESULT : $SHARDS_RESULT"
+          echo "===================================="
+
+          if [ "$SHARDS_RESULT" != "success" ]; then
+            echo "WARNING: One or more shards failed."
+            echo "Combiner will still process available data."
+          fi
+
+          MAX_TRIES=8
+          TRY=1
+
+          pip install --upgrade pytz
+
+          while [ "$TRY" -le "$MAX_TRIES" ]; do
+
+            echo "Combine attempt $TRY / $MAX_TRIES"
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            python combine_shards_rotate.py
+
+            git add "advance/data/${DATE_CODE}/"
+            git add advance/logs/ || true
+
+            if git diff --cached --quiet; then
+              echo "No changes after combine."
+              exit 0
+            fi
+
+            git commit -m "Final rotated-combined BMS data (${DATE_CODE})"
+
+            if git push origin HEAD:main; then
+              echo "Combine push successful."
+              exit 0
+            fi
+
+            echo "Push failed; refreshing main and retrying."
+
+            TRY=$((TRY + 1))
+            sleep 5
+
+          done
+
+          echo "Combine failed after $MAX_TRIES attempts."
+          exit 1
+
+
+# =====================================================
+# 4. FINAL STATUS REPORT
+# =====================================================
+  report:
+    name: Final Tracker Status
+    needs: [decide-day, shards, combine]
+    if: ${{ always() && needs.decide-day.result == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Report results
+        env:
+          SHARDS_RESULT: ${{ needs.shards.result }}
+          COMBINE_RESULT: ${{ needs.combine.result }}
+          DATE_CODE: ${{ needs.decide-day.outputs.date_code }}
+        run: |
+          echo "===================================="
+          echo "BMS ADVANCE TRACKER FINAL REPORT"
+          echo "DATE_CODE : $DATE_CODE"
+          echo "SHARDS    : $SHARDS_RESULT"
+          echo "COMBINER  : $COMBINE_RESULT"
+          echo "===================================="
+
+          if [ "$COMBINE_RESULT" != "success" ]; then
+            echo "WARNING: Combining did not complete successfully."
+            exit 1
+          fi
+
+          if [ "$SHARDS_RESULT" != "success" ]; then
+            echo "WARNING: Combiner completed despite shard failures."
+          fi
+
+          echo "Tracker workflow completed."
