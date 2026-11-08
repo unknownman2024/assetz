@@ -553,3 +553,48 @@
 [13:09:18] ✅ DONE | Shows=3009 | Movies=31
 [13:09:18] 📄 Detailed: daily/data/20261108/detailed9.json
 [13:09:18] 📄 Summary: daily/data/20261108/movie_summary9.json
+[14:08:53] 🚀 DISTRICT → BMS9 CONVERTER STARTED
+[14:08:53] 📅 Date: 2026-11-08
+[14:08:53] 🚫 Worker logic: DISABLED
+[14:08:53] 🔑 Venue matching: ID ONLY
+[14:08:53] 🚫 alldistrictvenues.json: NOT USED
+[14:08:53] 🚫 Venue-name matching: NOT USED
+[14:08:53] 📍 Selected venue records: 756
+[14:08:53] 🎯 Selected venue IDs: 756
+[14:08:53] 📡 Fetching Detailed JSON:
+[14:08:53]    https://districtdata2026.pages.dev/boxoffice/2026-11-08_Detailed.json
+[14:08:53] ✅ Source loaded
+[14:08:53]    Source date: 2026-11-08
+[14:08:53]    Last updated: 02:05 PM, 08 November 2026
+[14:08:53]    Movie keys: 66
+[14:08:54] 🎬 Source movie keys: 66
+[14:08:54] 🎟️ Selected-venue show rows: 3190
+[14:08:54] 🚫 Non-selected show rows ignored: 12355
+[14:08:54] ℹ️ Non-selected venue IDs encountered: 1161
+[14:08:54]    ⏭️ Source venue ID not selected: 1011225
+[14:08:54]    ⏭️ Source venue ID not selected: 1092168
+[14:08:54]    ⏭️ Source venue ID not selected: 63300
+[14:08:54]    ⏭️ Source venue ID not selected: 43123
+[14:08:54]    ⏭️ Source venue ID not selected: 4952
+[14:08:54]    ⏭️ Source venue ID not selected: 1102208
+[14:08:54]    ⏭️ Source venue ID not selected: 9865
+[14:08:54]    ⏭️ Source venue ID not selected: 1094349
+[14:08:54]    ⏭️ Source venue ID not selected: 1034320
+[14:08:54]    ⏭️ Source venue ID not selected: 1102111
+[14:08:54]    ⏭️ Source venue ID not selected: 1040662
+[14:08:54]    ⏭️ Source venue ID not selected: 120
+[14:08:54]    ⏭️ Source venue ID not selected: 9166
+[14:08:54]    ⏭️ Source venue ID not selected: 524
+[14:08:54]    ⏭️ Source venue ID not selected: 1029517
+[14:08:54]    ⏭️ Source venue ID not selected: 1099143
+[14:08:54]    ⏭️ Source venue ID not selected: 1020773
+[14:08:54]    ⏭️ Source venue ID not selected: 1009225
+[14:08:54]    ⏭️ Source venue ID not selected: 1030074
+[14:08:54]    ⏭️ Source venue ID not selected: 2608
+[14:08:54]    ... and 1141 more
+[14:08:54] 📦 Previous shows: 3009
+[14:08:54] 🆕 Fresh shows: 3190
+[14:08:54] 📦 Final shows: 3190
+[14:08:54] ✅ DONE | Shows=3190 | Movies=31
+[14:08:54] 📄 Detailed: daily/data/20261108/detailed9.json
+[14:08:54] 📄 Summary: daily/data/20261108/movie_summary9.json
