@@ -1,36 +1,80 @@
 {
-  "Ramayana [2D | Hindi]": {
-    "shows": 69,
-    "gross": 380830.0,
-    "sold": 1144,
-    "totalSeats": 10587,
-    "venues": 52,
-    "cities": 13,
-    "fastfilling": 1,
-    "housefull": 0,
-    "occupancy": 10.81
-  },
   "Ramayana [3D | Hindi]": {
-    "shows": 58,
-    "gross": 784655.0,
-    "sold": 2567,
-    "totalSeats": 12146,
-    "venues": 49,
-    "cities": 20,
-    "fastfilling": 7,
+    "shows": 119,
+    "gross": 1643706.0,
+    "sold": 5096,
+    "totalSeats": 24452,
+    "venues": 86,
+    "cities": 33,
+    "fastfilling": 12,
     "housefull": 1,
-    "occupancy": 21.13
+    "occupancy": 20.84
+  },
+  "Ramayana [2D | Hindi]": {
+    "shows": 155,
+    "gross": 1070966.0,
+    "sold": 3450,
+    "totalSeats": 24882,
+    "venues": 111,
+    "cities": 36,
+    "fastfilling": 5,
+    "housefull": 1,
+    "occupancy": 13.87
   },
   "Ramayana [3D | Malayalam]": {
+    "shows": 4,
+    "gross": 121670.0,
+    "sold": 581,
+    "totalSeats": 759,
+    "venues": 3,
+    "cities": 3,
+    "fastfilling": 3,
+    "housefull": 0,
+    "occupancy": 76.55
+  },
+  "Scene [2D | Tamil]": {
+    "shows": 47,
+    "gross": 1022763.82,
+    "sold": 5715,
+    "totalSeats": 13623,
+    "venues": 19,
+    "cities": 7,
+    "fastfilling": 21,
+    "housefull": 0,
+    "occupancy": 41.95
+  },
+  "Udta Teer [2D | Hindi]": {
+    "shows": 4,
+    "gross": 11650.0,
+    "sold": 67,
+    "totalSeats": 442,
+    "venues": 4,
+    "cities": 3,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 15.16
+  },
+  "Jailer 2 [2D | Tamil]": {
     "shows": 3,
-    "gross": 85250.0,
-    "sold": 419,
-    "totalSeats": 590,
-    "venues": 2,
-    "cities": 2,
+    "gross": 32933.0,
+    "sold": 213,
+    "totalSeats": 523,
+    "venues": 3,
+    "cities": 1,
     "fastfilling": 2,
     "housefull": 0,
-    "occupancy": 71.02
+    "occupancy": 40.73
+  },
+  "Ramayana [3D | Tamil]": {
+    "shows": 10,
+    "gross": 320949.35,
+    "sold": 1523,
+    "totalSeats": 2050,
+    "venues": 9,
+    "cities": 3,
+    "fastfilling": 7,
+    "housefull": 2,
+    "occupancy": 74.29
   },
   "Ramayana [IMAX 3D | Tamil]": {
     "shows": 1,
@@ -43,82 +87,93 @@
     "housefull": 1,
     "occupancy": 100.0
   },
-  "Scene [2D | Tamil]": {
-    "shows": 32,
-    "gross": 523488.67,
-    "sold": 2999,
-    "totalSeats": 9113,
-    "venues": 11,
-    "cities": 3,
-    "fastfilling": 10,
-    "housefull": 0,
-    "occupancy": 32.91
-  },
   "Mookuthi Amman 2 [2D | Tamil]": {
-    "shows": 5,
-    "gross": 12301.25,
-    "sold": 120,
-    "totalSeats": 1414,
-    "venues": 5,
-    "cities": 2,
-    "fastfilling": 0,
+    "shows": 9,
+    "gross": 50531.6,
+    "sold": 355,
+    "totalSeats": 2483,
+    "venues": 8,
+    "cities": 4,
+    "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 8.49
-  },
-  "Ramayana [3D | Tamil]": {
-    "shows": 6,
-    "gross": 180979.45,
-    "sold": 859,
-    "totalSeats": 1349,
-    "venues": 6,
-    "cities": 3,
-    "fastfilling": 5,
-    "housefull": 0,
-    "occupancy": 63.68
-  },
-  "Jailer 2 [2D | Tamil]": {
-    "shows": 1,
-    "gross": 4817.35,
-    "sold": 41,
-    "totalSeats": 211,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 19.43
+    "occupancy": 14.3
   },
   "Scene [EPIQ | Tamil]": {
     "shows": 1,
-    "gross": 12600.0,
-    "sold": 63,
+    "gross": 12800.0,
+    "sold": 64,
     "totalSeats": 307,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 20.52
+    "occupancy": 20.85
+  },
+  "Ramayana [4DX 3D | Hindi]": {
+    "shows": 2,
+    "gross": 113810.0,
+    "sold": 177,
+    "totalSeats": 236,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 2,
+    "housefull": 0,
+    "occupancy": 75.0
+  },
+  "Pyre [2D | Hindi]": {
+    "shows": 2,
+    "gross": 9650.0,
+    "sold": 45,
+    "totalSeats": 347,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 12.97
+  },
+  "The Cat in the Hat [3D | Hindi]": {
+    "shows": 3,
+    "gross": 1100.0,
+    "sold": 5,
+    "totalSeats": 429,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 1.17
   },
   "Rajini: The Jailer 2 [2D | Hindi]": {
-    "shows": 1,
+    "shows": 2,
     "gross": 5250.0,
     "sold": 13,
-    "totalSeats": 256,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 386,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 5.08
+    "occupancy": 3.37
   },
   "Ramayana [3D | Kannada]": {
-    "shows": 1,
-    "gross": 3970.0,
-    "sold": 15,
-    "totalSeats": 340,
+    "shows": 4,
+    "gross": 30580.0,
+    "sold": 86,
+    "totalSeats": 966,
+    "venues": 4,
+    "cities": 3,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 8.9
+  },
+  "Ramayana [2D | Kannada]": {
+    "shows": 2,
+    "gross": 19550.0,
+    "sold": 73,
+    "totalSeats": 468,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 4.41
+    "occupancy": 15.6
   },
   "Ramayana [2D | Tamil]": {
     "shows": 2,
@@ -153,22 +208,33 @@
     "housefull": 0,
     "occupancy": 64.66
   },
-  "Ramayana [4DX 3D | Hindi]": {
+  "Doraemon: Castle of the Undersea Devil [2D | Hindi]": {
     "shows": 1,
-    "gross": 68780.0,
-    "sold": 98,
-    "totalSeats": 120,
+    "gross": 4474.0,
+    "sold": 26,
+    "totalSeats": 61,
     "venues": 1,
     "cities": 1,
-    "fastfilling": 1,
+    "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 81.67
+    "occupancy": 42.62
   },
-  "Udta Teer [2D | Hindi]": {
+  "Hanuman Ansh [2D | Hindi]": {
+    "shows": 1,
+    "gross": 200.0,
+    "sold": 2,
+    "totalSeats": 47,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 4.26
+  },
+  "The Cat in the Hat [2D | English]": {
     "shows": 1,
     "gross": 0.0,
     "sold": 0,
-    "totalSeats": 22,
+    "totalSeats": 81,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
